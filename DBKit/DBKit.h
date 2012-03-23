@@ -15,3 +15,8 @@
 
 //Views
 #import "DBViewWithNibLayout.h"
+#import "DBNumberPadInputView.h"
+#import "DBDecimalTextField.h"
+#import "DBPercentDecimalTextField.h"
+#import "DBMonetaryTextField.h"
+#import "DBNumberFormatting.h"

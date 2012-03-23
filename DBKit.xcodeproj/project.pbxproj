@@ -13,6 +13,16 @@
 		FB2643CB151C54DD0083AFA4 /* PRPBasicDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2E6151BDED900AA67E3 /* PRPBasicDataModel.m */; };
 		FB2643CC151C54F00083AFA4 /* DBCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE303151BE0C300AA67E3 /* DBCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB26441D151C59530083AFA4 /* QuartzCore.framework */; };
+		FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */; };
+		FB26442E151C5E2C0083AFA4 /* DBMonetaryTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26442A151C5E2C0083AFA4 /* DBMonetaryTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */; };
+		FB264446151C5EE00083AFA4 /* DBNumberPadInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */; };
+		FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */; };
+		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; };
+		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FBCDE2CD151BD9AC00AA67E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2CC151BD9AC00AA67E3 /* SenTestingKit.framework */; };
@@ -47,6 +57,25 @@
 /* Begin PBXFileReference section */
 		FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKitCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB26441D151C59530083AFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
+		FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDecimalTextField.m; sourceTree = "<group>"; };
+		FB26442A151C5E2C0083AFA4 /* DBMonetaryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMonetaryTextField.h; sourceTree = "<group>"; };
+		FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMonetaryTextField.m; sourceTree = "<group>"; };
+		FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberPadInputView.h; sourceTree = "<group>"; };
+		FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
+		FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberFormatting.h; sourceTree = "<group>"; };
+		FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberFormatting.m; sourceTree = "<group>"; };
+		FB264451151C5FE10083AFA4 /* DBNumberPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberPadInputView.xib; sourceTree = "<group>"; };
+		FB264452151C60100083AFA4 /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButton.png; sourceTree = "<group>"; };
+		FB264453151C60100083AFA4 /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButton@2x.png"; sourceTree = "<group>"; };
+		FB264454151C60100083AFA4 /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButtonSelected.png; sourceTree = "<group>"; };
+		FB264455151C60100083AFA4 /* backspaceButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButtonSelected@2x.png"; sourceTree = "<group>"; };
+		FB264456151C60100083AFA4 /* numberPadBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberPadBackdrop.png; sourceTree = "<group>"; };
+		FB264457151C60100083AFA4 /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numberPadBackdrop@2x.png"; sourceTree = "<group>"; };
+		FB264458151C60100083AFA4 /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plainButton.png; sourceTree = "<group>"; };
+		FB264459151C60100083AFA4 /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plainButton@2x.png"; sourceTree = "<group>"; };
+		FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
+		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FBA82D87151BE3CD006E1554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +146,39 @@
 			path = DBKit;
 			sourceTree = "<group>";
 		};
+		FB264424151C5C1C0083AFA4 /* DBKit Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB264426151C5C2A0083AFA4 /* NumPad */,
+			);
+			name = "DBKit Resources";
+			sourceTree = "<group>";
+		};
+		FB264426151C5C2A0083AFA4 /* NumPad */ = {
+			isa = PBXGroup;
+			children = (
+				FB264452151C60100083AFA4 /* backspaceButton.png */,
+				FB264453151C60100083AFA4 /* backspaceButton@2x.png */,
+				FB264454151C60100083AFA4 /* backspaceButtonSelected.png */,
+				FB264455151C60100083AFA4 /* backspaceButtonSelected@2x.png */,
+				FB264456151C60100083AFA4 /* numberPadBackdrop.png */,
+				FB264457151C60100083AFA4 /* numberPadBackdrop@2x.png */,
+				FB264458151C60100083AFA4 /* plainButton.png */,
+				FB264459151C60100083AFA4 /* plainButton@2x.png */,
+				FB264451151C5FE10083AFA4 /* DBNumberPadInputView.xib */,
+			);
+			name = NumPad;
+			sourceTree = "<group>";
+		};
+		FB264445151C5E9E0083AFA4 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */,
+				FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
 		FBA82D82151BE382006E1554 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +228,8 @@
 				FBCDE302151BDF1400AA67E3 /* Categories */,
 				FBCDE307151BE14600AA67E3 /* Cells */,
 				FBCDE2FF151BDEDE00AA67E3 /* Views */,
+				FB264445151C5E9E0083AFA4 /* Formatters */,
+				FB264424151C5C1C0083AFA4 /* DBKit Resources */,
 				FBCDE2C1151BD9AC00AA67E3 /* Supporting Files */,
 			);
 			path = DBKit;
@@ -201,6 +265,14 @@
 		FBCDE2FF151BDEDE00AA67E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */,
+				FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */,
+				FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */,
+				FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */,
+				FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */,
+				FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */,
+				FB26442A151C5E2C0083AFA4 /* DBMonetaryTextField.h */,
+				FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */,
 				FBCDE2EC151BDED900AA67E3 /* DBViewWithNibLayout.h */,
 				FBCDE2ED151BDED900AA67E3 /* DBViewWithNibLayout.m */,
 			);
@@ -262,6 +334,11 @@
 				FBCDE2FD151BDED900AA67E3 /* UIView+DBKitAdditions.h in Headers */,
 				FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */,
 				FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */,
+				FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */,
+				FB26442E151C5E2C0083AFA4 /* DBMonetaryTextField.h in Headers */,
+				FB264446151C5EE00083AFA4 /* DBNumberPadInputView.h in Headers */,
+				FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */,
+				FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +471,11 @@
 				FBCDE2FA151BDED900AA67E3 /* DBViewWithNibLayout.m in Sources */,
 				FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */,
 				FBCDE2FE151BDED900AA67E3 /* UIView+DBKitAdditions.m in Sources */,
+				FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */,
+				FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */,
+				FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */,
+				FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */,
+				FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
