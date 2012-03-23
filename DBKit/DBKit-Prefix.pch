@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DBKit' target in the 'DBKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
