@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2643BF151C54B00083AFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
-		FB2643CA151C54D70083AFA4 /* PRPBasicDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E5151BDED900AA67E3 /* PRPBasicDataModel.h */; };
+		FB2643CA151C54D70083AFA4 /* PRPBasicDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E5151BDED900AA67E3 /* PRPBasicDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2643CB151C54DD0083AFA4 /* PRPBasicDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2E6151BDED900AA67E3 /* PRPBasicDataModel.m */; };
 		FB2643CC151C54F00083AFA4 /* DBCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE303151BE0C300AA67E3 /* DBCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB26441D151C59530083AFA4 /* QuartzCore.framework */; };
