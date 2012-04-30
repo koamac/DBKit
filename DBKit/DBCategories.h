@@ -10,3 +10,5 @@
 #import "UIView+position.h"
 #import "UIViewController+TextInput.h"
 #import "NSTimer+Blocks.h"
+
+#import "UIFont+LogFontNames.h"
