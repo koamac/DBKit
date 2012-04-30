@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 David Barry. All rights reserved.
 //
 
-//UIView placement categories
-#import "UIView+position.h"
 
+#import "UIView+position.h"
+#import "UIViewController+TextInput.h"
 #import "NSTimer+Blocks.h"
