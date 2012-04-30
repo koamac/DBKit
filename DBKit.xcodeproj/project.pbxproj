@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C471154F2090009F24BD /* NSTimer+Blocks.h */; };
 		FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C472154F2090009F24BD /* NSTimer+Blocks.m */; };
+		FB14C477154F238C009F24BD /* UIViewController+TextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C475154F238C009F24BD /* UIViewController+TextInput.h */; };
+		FB14C478154F238C009F24BD /* UIViewController+TextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C476154F238C009F24BD /* UIViewController+TextInput.m */; };
 		FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2643BF151C54B00083AFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FB2643CA151C54D70083AFA4 /* PRPBasicDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E5151BDED900AA67E3 /* PRPBasicDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +59,8 @@
 /* Begin PBXFileReference section */
 		FB14C471154F2090009F24BD /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
 		FB14C472154F2090009F24BD /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		FB14C475154F238C009F24BD /* UIViewController+TextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TextInput.h"; sourceTree = "<group>"; };
+		FB14C476154F238C009F24BD /* UIViewController+TextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TextInput.m"; sourceTree = "<group>"; };
 		FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKitCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB26441D151C59530083AFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
@@ -295,6 +299,8 @@
 				FBCDE2EF151BDED900AA67E3 /* UIView+position.m */,
 				FB14C471154F2090009F24BD /* NSTimer+Blocks.h */,
 				FB14C472154F2090009F24BD /* NSTimer+Blocks.m */,
+				FB14C475154F238C009F24BD /* UIViewController+TextInput.h */,
+				FB14C476154F238C009F24BD /* UIViewController+TextInput.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -339,6 +345,7 @@
 				FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */,
 				FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */,
 				FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */,
+				FB14C477154F238C009F24BD /* UIViewController+TextInput.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +483,7 @@
 				FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */,
 				FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */,
 				FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */,
+				FB14C478154F238C009F24BD /* UIViewController+TextInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
