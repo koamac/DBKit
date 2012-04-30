@@ -4,9 +4,23 @@
 //  Created by Tyler Neylon on 3/19/10.
 //  Copyleft 2010 Bynomial.
 //
+//  Copyright [2010] [Tyler Neylon]
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+
 
 #import "UIView+position.h"
-
+#import <QuartzCore/QuartzCore.h>
 
 @implementation UIView (position)
 
@@ -81,4 +95,23 @@
                             self.frame.size.width, newHeight);
 }
 
+
+- (void)setAnchorPointWithoutMovingView:(CGPoint)anchorPoint {
+    CGPoint newPoint = CGPointMake(self.bounds.size.width * anchorPoint.x, self.bounds.size.height * anchorPoint.y);
+    CGPoint oldPoint = CGPointMake(self.bounds.size.width * self.layer.anchorPoint.x, self.bounds.size.height * self.layer.anchorPoint.y);
+    
+    newPoint = CGPointApplyAffineTransform(newPoint, self.transform);
+    oldPoint = CGPointApplyAffineTransform(oldPoint, self.transform);
+    
+    CGPoint position = self.layer.position;
+    
+    position.x -= oldPoint.x;
+    position.x += newPoint.x;
+    
+    position.y -= oldPoint.y;
+    position.y += newPoint.y;
+    
+    self.layer.position = position;
+    self.layer.anchorPoint = anchorPoint;
+}
 @end

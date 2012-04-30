@@ -39,8 +39,6 @@
 		FBCDE2FA151BDED900AA67E3 /* DBViewWithNibLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* DBViewWithNibLayout.m */; };
 		FBCDE2FB151BDED900AA67E3 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EE151BDED900AA67E3 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2EF151BDED900AA67E3 /* UIView+position.m */; };
-		FBCDE2FD151BDED900AA67E3 /* UIView+DBKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2F0151BDED900AA67E3 /* UIView+DBKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2FE151BDED900AA67E3 /* UIView+DBKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2F1151BDED900AA67E3 /* UIView+DBKitAdditions.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -98,8 +96,6 @@
 		FBCDE2ED151BDED900AA67E3 /* DBViewWithNibLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBViewWithNibLayout.m; sourceTree = "<group>"; };
 		FBCDE2EE151BDED900AA67E3 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
 		FBCDE2EF151BDED900AA67E3 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
-		FBCDE2F0151BDED900AA67E3 /* UIView+DBKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKitAdditions.h"; sourceTree = "<group>"; };
-		FBCDE2F1151BDED900AA67E3 /* UIView+DBKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKitAdditions.m"; sourceTree = "<group>"; };
 		FBCDE303151BE0C300AA67E3 /* DBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCoreData.h; sourceTree = "<group>"; };
 		FBCDE305151BE11B00AA67E3 /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -293,8 +289,6 @@
 			children = (
 				FBCDE2EE151BDED900AA67E3 /* UIView+position.h */,
 				FBCDE2EF151BDED900AA67E3 /* UIView+position.m */,
-				FBCDE2F0151BDED900AA67E3 /* UIView+DBKitAdditions.h */,
-				FBCDE2F1151BDED900AA67E3 /* UIView+DBKitAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -331,7 +325,6 @@
 				FBCDE2F7151BDED900AA67E3 /* DBTableViewCell.h in Headers */,
 				FBCDE2F9151BDED900AA67E3 /* DBViewWithNibLayout.h in Headers */,
 				FBCDE2FB151BDED900AA67E3 /* UIView+position.h in Headers */,
-				FBCDE2FD151BDED900AA67E3 /* UIView+DBKitAdditions.h in Headers */,
 				FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */,
 				FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */,
 				FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */,
@@ -470,7 +463,6 @@
 				FBCDE2F8151BDED900AA67E3 /* DBTableViewCell.m in Sources */,
 				FBCDE2FA151BDED900AA67E3 /* DBViewWithNibLayout.m in Sources */,
 				FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */,
-				FBCDE2FE151BDED900AA67E3 /* UIView+DBKitAdditions.m in Sources */,
 				FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */,
 				FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */,
 				FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */,
