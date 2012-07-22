@@ -25,7 +25,7 @@
 		FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */; };
 		FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */; };
-		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; };
+		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */; };
 		FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */; };
@@ -533,6 +533,7 @@
 				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -545,6 +546,7 @@
 				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -578,6 +580,7 @@
 				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Beta;
@@ -590,6 +593,7 @@
 				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Beta;
@@ -665,6 +669,7 @@
 				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -677,6 +682,7 @@
 				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
