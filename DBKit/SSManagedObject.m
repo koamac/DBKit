@@ -54,10 +54,7 @@ static NSString *const kURIRepresentationKey = @"URIRepresentation";
 
 + (NSDictionary *)persistentStoreOptions {
 	if (!__persistentStoreOptions) {
-		[self setPersistentStoreOptions:[NSDictionary dictionaryWithObjectsAndKeys:
-										 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
-										 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption,
-										 nil]];
+		[self setPersistentStoreOptions:@{ NSMigratePersistentStoresAutomaticallyOption: @(YES), NSInferMappingModelAutomaticallyOption: @(YES) }];
 	}
 	return __persistentStoreOptions;
 }

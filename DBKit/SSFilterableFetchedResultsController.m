@@ -22,11 +22,6 @@
 
 @implementation SSFilterableFetchedResultsController
 
-@synthesize fetchedResultsController = _fetchedResultsController;
-@synthesize filters = _filters;
-@synthesize currentFilter = _currentFilter;
-@synthesize delegate = _delegate;
-
 - (id)initWithFetchRequest:(NSFetchRequest *)fetchRequest
 	   managedObjectContext:(NSManagedObjectContext *)context
 		 sectionNameKeyPath:(NSString *)sectionNameKeyPath

@@ -10,12 +10,6 @@
 
 @implementation SSManagedTableViewController
 
-#pragma mark - Accessors
-
-@synthesize tableView = _tableView;
-@synthesize clearsSelectionOnViewWillAppear = _clearsSelectionOnViewWillAppear;
-
-
 #pragma mark - NSObject
 
 - (id)init {
@@ -165,13 +159,13 @@
 	
     switch(type) {
         case NSFetchedResultsChangeInsert: {
-            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
+            [tableView insertRowsAtIndexPaths:@[newIndexPath]
 							 withRowAnimation:UITableViewRowAnimationFade];
             break;
 		}
 			
         case NSFetchedResultsChangeDelete: {
-            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+            [tableView deleteRowsAtIndexPaths:@[indexPath]
 							 withRowAnimation:UITableViewRowAnimationFade];
             break;
 		}
@@ -182,9 +176,9 @@
 		}
 			
         case NSFetchedResultsChangeMove: {
-            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+            [tableView deleteRowsAtIndexPaths:@[indexPath]
 							 withRowAnimation:UITableViewRowAnimationFade];
-            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
+            [tableView insertRowsAtIndexPaths:@[newIndexPath]
 							 withRowAnimation:UITableViewRowAnimationFade];
             break;
 		}

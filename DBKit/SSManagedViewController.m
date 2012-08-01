@@ -11,22 +11,16 @@
 
 @implementation SSManagedViewController
 
-@synthesize managedObject = _managedObject;
 @synthesize fetchedResultsController = _fetchedResultsController;
-@synthesize ignoreChange = _ignoreChange;
-@synthesize loading = _loading;
-@synthesize noContentView = _noContentView;
-@synthesize loadingView = _loadingView;
-
 
 #pragma mark - Accessors
 
 - (NSFetchedResultsController *)fetchedResultsController {
 	if (!_fetchedResultsController) {
 		_fetchedResultsController = [[[[self class] fetchedResultsControllerClass] alloc] initWithFetchRequest:self.fetchRequest
-																		managedObjectContext:self.managedObjectContext
-																		  sectionNameKeyPath:self.sectionNameKeyPath
-																				   cacheName:self.cacheName];
+                                                                                          managedObjectContext:self.managedObjectContext
+                                                                                            sectionNameKeyPath:self.sectionNameKeyPath
+                                                                                                     cacheName:self.cacheName];
 		_fetchedResultsController.delegate = self;
 		[_fetchedResultsController performFetch:nil];
 	}

@@ -227,10 +227,8 @@
 
 
 + (NSArray *)defaultSortDescriptors {
-	return [NSArray arrayWithObjects:
-			[NSSortDescriptor sortDescriptorWithKey:@"createdAt" ascending:NO],
-			[NSSortDescriptor sortDescriptorWithKey:@"remoteID" ascending:NO],
-			nil];
+	return @[[NSSortDescriptor sortDescriptorWithKey:@"createdAt" ascending:NO],
+			[NSSortDescriptor sortDescriptorWithKey:@"remoteID" ascending:NO]];
 }
 
 @end
