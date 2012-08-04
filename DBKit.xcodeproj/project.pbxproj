@@ -45,11 +45,6 @@
 		FB7AA86815C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
-		FBCDE2CD151BD9AC00AA67E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2CC151BD9AC00AA67E3 /* SenTestingKit.framework */; };
-		FBCDE2D0151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
-		FBCDE2D3151BD9AC00AA67E3 /* libDBKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */; };
-		FBCDE2D9151BD9AC00AA67E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCDE2D7151BD9AC00AA67E3 /* InfoPlist.strings */; };
-		FBCDE2DC151BD9AC00AA67E3 /* DBKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2DB151BD9AC00AA67E3 /* DBKitTests.m */; };
 		FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E7151BDED900AA67E3 /* DBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2F5151BDED900AA67E3 /* DBNibTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2F6151BDED900AA67E3 /* DBNibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */; };
@@ -61,16 +56,6 @@
 		FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2EF151BDED900AA67E3 /* UIView+position.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FBCDE2D1151BD9AC00AA67E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FBCDE2B2151BD9AC00AA67E3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBCDE2BA151BD9AC00AA67E3;
-			remoteInfo = DBKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FB14C471154F2090009F24BD /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
@@ -121,12 +106,6 @@
 		FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBCDE2C2151BD9AC00AA67E3 /* DBKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBKit-Prefix.pch"; sourceTree = "<group>"; };
 		FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBKit.h; sourceTree = "<group>"; };
-		FBCDE2CB151BD9AC00AA67E3 /* DBKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBCDE2CC151BD9AC00AA67E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		FBCDE2D6151BD9AC00AA67E3 /* DBKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBKitTests-Info.plist"; sourceTree = "<group>"; };
-		FBCDE2D8151BD9AC00AA67E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FBCDE2DA151BD9AC00AA67E3 /* DBKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBKitTests.h; sourceTree = "<group>"; };
-		FBCDE2DB151BD9AC00AA67E3 /* DBKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBKitTests.m; sourceTree = "<group>"; };
 		FBCDE2E7151BDED900AA67E3 /* DBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMacros.h; sourceTree = "<group>"; };
 		FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNibTableViewCell.h; sourceTree = "<group>"; };
 		FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNibTableViewCell.m; sourceTree = "<group>"; };
@@ -156,16 +135,6 @@
 				FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */,
 				FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */,
 				FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBCDE2C7151BD9AC00AA67E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBCDE2CD151BD9AC00AA67E3 /* SenTestingKit.framework in Frameworks */,
-				FBCDE2D0151BD9AC00AA67E3 /* Foundation.framework in Frameworks */,
-				FBCDE2D3151BD9AC00AA67E3 /* libDBKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +212,6 @@
 			children = (
 				FBCDE2C0151BD9AC00AA67E3 /* DBKit */,
 				FB2643D5151C556C0083AFA4 /* DBKitCoreData */,
-				FBCDE2D4151BD9AC00AA67E3 /* DBKitTests */,
 				FBCDE2BD151BD9AC00AA67E3 /* Frameworks */,
 				FBCDE2BC151BD9AC00AA67E3 /* Products */,
 			);
@@ -253,7 +221,6 @@
 			isa = PBXGroup;
 			children = (
 				FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */,
-				FBCDE2CB151BD9AC00AA67E3 /* DBKitTests.octest */,
 				FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */,
 			);
 			name = Products;
@@ -265,7 +232,6 @@
 				FB26441D151C59530083AFA4 /* QuartzCore.framework */,
 				FBA82D87151BE3CD006E1554 /* UIKit.framework */,
 				FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */,
-				FBCDE2CC151BD9AC00AA67E3 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -290,25 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				FBCDE2C2151BD9AC00AA67E3 /* DBKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FBCDE2D4151BD9AC00AA67E3 /* DBKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				FBCDE2DA151BD9AC00AA67E3 /* DBKitTests.h */,
-				FBCDE2DB151BD9AC00AA67E3 /* DBKitTests.m */,
-				FBCDE2D5151BD9AC00AA67E3 /* Supporting Files */,
-			);
-			path = DBKitTests;
-			sourceTree = "<group>";
-		};
-		FBCDE2D5151BD9AC00AA67E3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FBCDE2D6151BD9AC00AA67E3 /* DBKitTests-Info.plist */,
-				FBCDE2D7151BD9AC00AA67E3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -434,25 +381,6 @@
 			productReference = FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FBCDE2CA151BD9AC00AA67E3 /* DBKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FBCDE2E2151BD9AC00AA67E3 /* Build configuration list for PBXNativeTarget "DBKitTests" */;
-			buildPhases = (
-				FBCDE2C6151BD9AC00AA67E3 /* Sources */,
-				FBCDE2C7151BD9AC00AA67E3 /* Frameworks */,
-				FBCDE2C8151BD9AC00AA67E3 /* Resources */,
-				FBCDE2C9151BD9AC00AA67E3 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FBCDE2D2151BD9AC00AA67E3 /* PBXTargetDependency */,
-			);
-			name = DBKitTests;
-			productName = DBKitTests;
-			productReference = FBCDE2CB151BD9AC00AA67E3 /* DBKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -476,37 +404,9 @@
 			targets = (
 				FBCDE2BA151BD9AC00AA67E3 /* DBKit */,
 				FB2643BD151C54B00083AFA4 /* DBKitCoreData */,
-				FBCDE2CA151BD9AC00AA67E3 /* DBKitTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		FBCDE2C8151BD9AC00AA67E3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBCDE2D9151BD9AC00AA67E3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FBCDE2C9151BD9AC00AA67E3 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB2643BA151C54B00083AFA4 /* Sources */ = {
@@ -543,34 +443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBCDE2C6151BD9AC00AA67E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBCDE2DC151BD9AC00AA67E3 /* DBKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FBCDE2D2151BD9AC00AA67E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FBCDE2BA151BD9AC00AA67E3 /* DBKit */;
-			targetProxy = FBCDE2D1151BD9AC00AA67E3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FBCDE2D7151BD9AC00AA67E3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBCDE2D8151BD9AC00AA67E3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB2643C6151C54B00083AFA4 /* Debug */ = {
@@ -643,21 +516,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Beta;
-		};
-		FB264412151C58C50083AFA4 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
-				INFOPLIST_FILE = "DBKitTests/DBKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Beta;
 		};
@@ -735,36 +593,6 @@
 			};
 			name = Release;
 		};
-		FBCDE2E3151BD9AC00AA67E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
-				INFOPLIST_FILE = "DBKitTests/DBKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		FBCDE2E4151BD9AC00AA67E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
-				INFOPLIST_FILE = "DBKitTests/DBKitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -794,16 +622,6 @@
 				FBCDE2E0151BD9AC00AA67E3 /* Debug */,
 				FBCDE2E1151BD9AC00AA67E3 /* Release */,
 				FB264410151C58C50083AFA4 /* Beta */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FBCDE2E2151BD9AC00AA67E3 /* Build configuration list for PBXNativeTarget "DBKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FBCDE2E3151BD9AC00AA67E3 /* Debug */,
-				FBCDE2E4151BD9AC00AA67E3 /* Release */,
-				FB264412151C58C50083AFA4 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
