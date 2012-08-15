@@ -19,7 +19,7 @@
     return [self scheduledTimerWithTimeInterval:ti target:self selector:@selector(fireBlock:) userInfo:copiedBlock repeats:yesOrNo];
 }
 
-- (void)fireBlock:(NSTimer *)timer {
++ (void)fireBlock:(NSTimer *)timer {
     void (^theBlock)() = timer.userInfo;
     theBlock();
 }
