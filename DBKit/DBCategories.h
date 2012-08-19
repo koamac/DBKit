@@ -9,5 +9,6 @@
 
 #import "UIView+position.h"
 #import "NSTimer+Blocks.h"
-
+#import "NSString+URLEncoding.h"
+#import "NSURL+QueryDictionary.h"
 #import "UIFont+LogFontNames.h"

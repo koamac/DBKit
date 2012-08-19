@@ -26,12 +26,6 @@
 		FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */; };
 		FB7AA85815C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA85915C8F6930073FCBC /* SSFilterableFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA84A15C8F6930073FCBC /* SSFilterableFetchedResultsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA85A15C8F6930073FCBC /* SSFilterableFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA84B15C8F6930073FCBC /* SSFilterableFetchedResultsController.m */; };
-		FB7AA85B15C8F6930073FCBC /* SSFilteredResultsFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA84C15C8F6930073FCBC /* SSFilteredResultsFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA85C15C8F6930073FCBC /* SSFilteredResultsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA84D15C8F6930073FCBC /* SSFilteredResultsFilter.m */; };
-		FB7AA85D15C8F6930073FCBC /* SSFilteredResultsSection.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA84E15C8F6930073FCBC /* SSFilteredResultsSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA85E15C8F6930073FCBC /* SSFilteredResultsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA84F15C8F6930073FCBC /* SSFilteredResultsSection.m */; };
 		FB7AA85F15C8F6930073FCBC /* SSManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85015C8F6930073FCBC /* SSManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7AA86015C8F6930073FCBC /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85115C8F6930073FCBC /* SSManagedObject.m */; };
 		FB7AA86115C8F6930073FCBC /* SSManagedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +35,10 @@
 		FB7AA86515C8F6930073FCBC /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85615C8F6930073FCBC /* SSRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7AA86615C8F6930073FCBC /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85715C8F6930073FCBC /* SSRemoteManagedObject.m */; };
 		FB7AA86815C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */; };
+		FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */; };
+		FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */; };
+		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
+		FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E7151BDED900AA67E3 /* DBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,12 +80,6 @@
 		FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LogFontNames.h"; sourceTree = "<group>"; };
 		FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LogFontNames.m"; sourceTree = "<group>"; };
 		FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SSDataKitAdditions.h"; sourceTree = "<group>"; };
-		FB7AA84A15C8F6930073FCBC /* SSFilterableFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilterableFetchedResultsController.h; sourceTree = "<group>"; };
-		FB7AA84B15C8F6930073FCBC /* SSFilterableFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilterableFetchedResultsController.m; sourceTree = "<group>"; };
-		FB7AA84C15C8F6930073FCBC /* SSFilteredResultsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilteredResultsFilter.h; sourceTree = "<group>"; };
-		FB7AA84D15C8F6930073FCBC /* SSFilteredResultsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilteredResultsFilter.m; sourceTree = "<group>"; };
-		FB7AA84E15C8F6930073FCBC /* SSFilteredResultsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilteredResultsSection.h; sourceTree = "<group>"; };
-		FB7AA84F15C8F6930073FCBC /* SSFilteredResultsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilteredResultsSection.m; sourceTree = "<group>"; };
 		FB7AA85015C8F6930073FCBC /* SSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedObject.h; sourceTree = "<group>"; };
 		FB7AA85115C8F6930073FCBC /* SSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedObject.m; sourceTree = "<group>"; };
 		FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedTableViewController.h; sourceTree = "<group>"; };
@@ -97,6 +89,10 @@
 		FB7AA85615C8F6930073FCBC /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteManagedObject.h; sourceTree = "<group>"; };
 		FB7AA85715C8F6930073FCBC /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteManagedObject.m; sourceTree = "<group>"; };
 		FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SSDataKitAdditions.m"; sourceTree = "<group>"; };
+		FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
+		FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
 		FBA82D87151BE3CD006E1554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,12 +139,6 @@
 				FBCDE303151BE0C300AA67E3 /* DBCoreData.h */,
 				FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */,
 				FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */,
-				FB7AA84A15C8F6930073FCBC /* SSFilterableFetchedResultsController.h */,
-				FB7AA84B15C8F6930073FCBC /* SSFilterableFetchedResultsController.m */,
-				FB7AA84C15C8F6930073FCBC /* SSFilteredResultsFilter.h */,
-				FB7AA84D15C8F6930073FCBC /* SSFilteredResultsFilter.m */,
-				FB7AA84E15C8F6930073FCBC /* SSFilteredResultsSection.h */,
-				FB7AA84F15C8F6930073FCBC /* SSFilteredResultsSection.m */,
 				FB7AA85015C8F6930073FCBC /* SSManagedObject.h */,
 				FB7AA85115C8F6930073FCBC /* SSManagedObject.m */,
 				FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */,
@@ -276,6 +266,10 @@
 		FBCDE302151BDF1400AA67E3 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */,
+				FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */,
+				FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */,
+				FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */,
 				FBCDE2EE151BDED900AA67E3 /* UIView+position.h */,
 				FBCDE2EF151BDED900AA67E3 /* UIView+position.m */,
 				FB14C471154F2090009F24BD /* NSTimer+Blocks.h */,
@@ -306,9 +300,6 @@
 			files = (
 				FB2643CC151C54F00083AFA4 /* DBCoreData.h in Headers */,
 				FB7AA85815C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */,
-				FB7AA85915C8F6930073FCBC /* SSFilterableFetchedResultsController.h in Headers */,
-				FB7AA85B15C8F6930073FCBC /* SSFilteredResultsFilter.h in Headers */,
-				FB7AA85D15C8F6930073FCBC /* SSFilteredResultsSection.h in Headers */,
 				FB7AA85F15C8F6930073FCBC /* SSManagedObject.h in Headers */,
 				FB7AA86115C8F6930073FCBC /* SSManagedTableViewController.h in Headers */,
 				FB7AA86315C8F6930073FCBC /* SSManagedViewController.h in Headers */,
@@ -334,6 +325,8 @@
 				FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */,
 				FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */,
 				FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */,
+				FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */,
+				FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7AA85A15C8F6930073FCBC /* SSFilterableFetchedResultsController.m in Sources */,
-				FB7AA85C15C8F6930073FCBC /* SSFilteredResultsFilter.m in Sources */,
-				FB7AA85E15C8F6930073FCBC /* SSFilteredResultsSection.m in Sources */,
 				FB7AA86015C8F6930073FCBC /* SSManagedObject.m in Sources */,
 				FB7AA86215C8F6930073FCBC /* SSManagedTableViewController.m in Sources */,
 				FB7AA86415C8F6930073FCBC /* SSManagedViewController.m in Sources */,
@@ -432,6 +422,8 @@
 				FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */,
 				FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */,
 				FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */,
+				FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */,
+				FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
