@@ -185,6 +185,21 @@
 			name = Formatters;
 			sourceTree = "<group>";
 		};
+		FBA47B8915E1A26400C6FB3C /* Numeric Input */ = {
+			isa = PBXGroup;
+			children = (
+				FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */,
+				FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */,
+				FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */,
+				FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */,
+				FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */,
+				FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */,
+				FB26442A151C5E2C0083AFA4 /* DBMonetaryTextField.h */,
+				FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */,
+			);
+			name = "Numeric Input";
+			sourceTree = "<group>";
+		};
 		FBA82D82151BE382006E1554 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,14 +264,7 @@
 		FBCDE2FF151BDEDE00AA67E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */,
-				FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */,
-				FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */,
-				FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */,
-				FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */,
-				FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */,
-				FB26442A151C5E2C0083AFA4 /* DBMonetaryTextField.h */,
-				FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */,
+				FBA47B8915E1A26400C6FB3C /* Numeric Input */,
 				FBCDE2EC151BDED900AA67E3 /* DBViewWithNibLayout.h */,
 				FBCDE2ED151BDED900AA67E3 /* DBViewWithNibLayout.m */,
 			);
