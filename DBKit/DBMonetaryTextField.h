@@ -7,9 +7,10 @@
 
 
 #import <UIKit/UIKit.h>
+#import "DBTextField.h"
 @class DBNumberPadInputView;
 
-@interface DBMonetaryTextField : UITextField
+@interface DBMonetaryTextField : DBTextField
 @property (nonatomic, strong) DBNumberPadInputView *numberPad;
 @property (nonatomic, strong) NSDecimalNumber *decimalValue;
 @property (nonatomic, strong) NSDecimalNumber *maximumValue;

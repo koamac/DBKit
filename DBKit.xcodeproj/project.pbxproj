@@ -28,6 +28,8 @@
 		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
 		FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
+		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; };
+		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E7151BDED900AA67E3 /* DBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2F5151BDED900AA67E3 /* DBNibTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +73,8 @@
 		FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
 		FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
 		FBA82D87151BE3CD006E1554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
+		FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBCDE2C2151BD9AC00AA67E3 /* DBKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 				FBA47B8915E1A26400C6FB3C /* Numeric Input */,
 				FBCDE2EC151BDED900AA67E3 /* UIView+NibLayout.h */,
 				FBCDE2ED151BDED900AA67E3 /* UIView+NibLayout.m */,
+				FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */,
+				FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 				FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */,
 				FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */,
 				FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */,
+				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +343,7 @@
 				FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */,
 				FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */,
 				FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */,
+				FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
