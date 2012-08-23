@@ -10,8 +10,6 @@
 		FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C471154F2090009F24BD /* NSTimer+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C472154F2090009F24BD /* NSTimer+Blocks.m */; };
 		FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2643BF151C54B00083AFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
-		FB2643CC151C54F00083AFA4 /* DBCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE303151BE0C300AA67E3 /* DBCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB26441D151C59530083AFA4 /* QuartzCore.framework */; };
 		FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */; };
@@ -25,16 +23,6 @@
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */; };
-		FB7AA85815C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA85F15C8F6930073FCBC /* SSManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85015C8F6930073FCBC /* SSManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA86015C8F6930073FCBC /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85115C8F6930073FCBC /* SSManagedObject.m */; };
-		FB7AA86115C8F6930073FCBC /* SSManagedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA86215C8F6930073FCBC /* SSManagedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85315C8F6930073FCBC /* SSManagedTableViewController.m */; };
-		FB7AA86315C8F6930073FCBC /* SSManagedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85415C8F6930073FCBC /* SSManagedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA86415C8F6930073FCBC /* SSManagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85515C8F6930073FCBC /* SSManagedViewController.m */; };
-		FB7AA86515C8F6930073FCBC /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AA85615C8F6930073FCBC /* SSRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB7AA86615C8F6930073FCBC /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA85715C8F6930073FCBC /* SSRemoteManagedObject.m */; };
-		FB7AA86815C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */; };
 		FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */; };
 		FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */; };
 		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
@@ -56,7 +44,6 @@
 /* Begin PBXFileReference section */
 		FB14C471154F2090009F24BD /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
 		FB14C472154F2090009F24BD /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
-		FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKitCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB26441D151C59530083AFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
 		FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDecimalTextField.m; sourceTree = "<group>"; };
@@ -79,16 +66,6 @@
 		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LogFontNames.h"; sourceTree = "<group>"; };
 		FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LogFontNames.m"; sourceTree = "<group>"; };
-		FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SSDataKitAdditions.h"; sourceTree = "<group>"; };
-		FB7AA85015C8F6930073FCBC /* SSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedObject.h; sourceTree = "<group>"; };
-		FB7AA85115C8F6930073FCBC /* SSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedObject.m; sourceTree = "<group>"; };
-		FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedTableViewController.h; sourceTree = "<group>"; };
-		FB7AA85315C8F6930073FCBC /* SSManagedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedTableViewController.m; sourceTree = "<group>"; };
-		FB7AA85415C8F6930073FCBC /* SSManagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedViewController.h; sourceTree = "<group>"; };
-		FB7AA85515C8F6930073FCBC /* SSManagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedViewController.m; sourceTree = "<group>"; };
-		FB7AA85615C8F6930073FCBC /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteManagedObject.h; sourceTree = "<group>"; };
-		FB7AA85715C8F6930073FCBC /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteManagedObject.m; sourceTree = "<group>"; };
-		FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SSDataKitAdditions.m"; sourceTree = "<group>"; };
 		FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
@@ -107,19 +84,10 @@
 		FBCDE2ED151BDED900AA67E3 /* DBViewWithNibLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBViewWithNibLayout.m; sourceTree = "<group>"; };
 		FBCDE2EE151BDED900AA67E3 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
 		FBCDE2EF151BDED900AA67E3 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
-		FBCDE303151BE0C300AA67E3 /* DBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCoreData.h; sourceTree = "<group>"; };
 		FBCDE305151BE11B00AA67E3 /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB2643BB151C54B00083AFA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB2643BF151C54B00083AFA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBCDE2B8151BD9AC00AA67E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,25 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB2643D5151C556C0083AFA4 /* DBKitCoreData */ = {
-			isa = PBXGroup;
-			children = (
-				FBCDE303151BE0C300AA67E3 /* DBCoreData.h */,
-				FB7AA84915C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h */,
-				FB7AA86715C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m */,
-				FB7AA85015C8F6930073FCBC /* SSManagedObject.h */,
-				FB7AA85115C8F6930073FCBC /* SSManagedObject.m */,
-				FB7AA85215C8F6930073FCBC /* SSManagedTableViewController.h */,
-				FB7AA85315C8F6930073FCBC /* SSManagedTableViewController.m */,
-				FB7AA85415C8F6930073FCBC /* SSManagedViewController.h */,
-				FB7AA85515C8F6930073FCBC /* SSManagedViewController.m */,
-				FB7AA85615C8F6930073FCBC /* SSRemoteManagedObject.h */,
-				FB7AA85715C8F6930073FCBC /* SSRemoteManagedObject.m */,
-			);
-			name = DBKitCoreData;
-			path = DBKit;
-			sourceTree = "<group>";
-		};
 		FB264424151C5C1C0083AFA4 /* DBKit Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				FBCDE2C0151BD9AC00AA67E3 /* DBKit */,
-				FB2643D5151C556C0083AFA4 /* DBKitCoreData */,
 				FBCDE2BD151BD9AC00AA67E3 /* Frameworks */,
 				FBCDE2BC151BD9AC00AA67E3 /* Products */,
 			);
@@ -222,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */,
-				FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,19 +249,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FB2643BC151C54B00083AFA4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB2643CC151C54F00083AFA4 /* DBCoreData.h in Headers */,
-				FB7AA85815C8F6930073FCBC /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */,
-				FB7AA85F15C8F6930073FCBC /* SSManagedObject.h in Headers */,
-				FB7AA86115C8F6930073FCBC /* SSManagedTableViewController.h in Headers */,
-				FB7AA86315C8F6930073FCBC /* SSManagedViewController.h in Headers */,
-				FB7AA86515C8F6930073FCBC /* SSRemoteManagedObject.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBCDE2B9151BD9AC00AA67E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,23 +275,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FB2643BD151C54B00083AFA4 /* DBKitCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FB2643C8151C54B00083AFA4 /* Build configuration list for PBXNativeTarget "DBKitCoreData" */;
-			buildPhases = (
-				FB2643BA151C54B00083AFA4 /* Sources */,
-				FB2643BB151C54B00083AFA4 /* Frameworks */,
-				FB2643BC151C54B00083AFA4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DBKitCoreData;
-			productName = DBKitCoreData;
-			productReference = FB2643BE151C54B00083AFA4 /* libDBKitCoreData.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		FBCDE2BA151BD9AC00AA67E3 /* DBKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBCDE2DF151BD9AC00AA67E3 /* Build configuration list for PBXNativeTarget "DBKit" */;
@@ -397,24 +314,11 @@
 			projectRoot = "";
 			targets = (
 				FBCDE2BA151BD9AC00AA67E3 /* DBKit */,
-				FB2643BD151C54B00083AFA4 /* DBKitCoreData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB2643BA151C54B00083AFA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB7AA86015C8F6930073FCBC /* SSManagedObject.m in Sources */,
-				FB7AA86215C8F6930073FCBC /* SSManagedTableViewController.m in Sources */,
-				FB7AA86415C8F6930073FCBC /* SSManagedViewController.m in Sources */,
-				FB7AA86615C8F6930073FCBC /* SSRemoteManagedObject.m in Sources */,
-				FB7AA86815C8F6B10073FCBC /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBCDE2B7151BD9AC00AA67E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,32 +342,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FB2643C6151C54B00083AFA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DBKitCoreData.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FB2643C7151C54B00083AFA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DBKitCoreData.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		FB26440F151C58C50083AFA4 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,19 +369,6 @@
 				DSTROOT = /tmp/DBKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBKit/DBKit-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Beta;
-		};
-		FB264411151C58C50083AFA4 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DBKitCoreData.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitCoreData/DBKitCoreData-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
@@ -588,16 +453,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB2643C8151C54B00083AFA4 /* Build configuration list for PBXNativeTarget "DBKitCoreData" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FB2643C6151C54B00083AFA4 /* Debug */,
-				FB2643C7151C54B00083AFA4 /* Release */,
-				FB264411151C58C50083AFA4 /* Beta */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FBCDE2B5151BD9AC00AA67E3 /* Build configuration list for PBXProject "DBKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
