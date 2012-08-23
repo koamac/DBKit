@@ -1,5 +1,5 @@
 //
-//  DBViewWithNibLayout.h
+//  UIView+NibLayout.h
 //  DBKit
 //
 //  Created by David Barry on 1/22/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBViewWithNibLayout : UIView
+@interface UIView (NibLayout)
 + (id)viewFromNib;
 + (NSString *)nibName;
 @end

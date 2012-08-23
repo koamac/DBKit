@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DBNumberPadInputView.h"
+#import "UIView+NibLayout.h"
 
 @interface DBNumberPadInputView ()
 @property (nonatomic, strong) NSTimer *deleteRepeatTimer;

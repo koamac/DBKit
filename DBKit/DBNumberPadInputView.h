@@ -5,8 +5,6 @@
 //  Created by David Barry on 1/31/12.
 //  Copyright (c) 2011 David Barry
 
-#import "DBViewWithNibLayout.h"
-
 typedef enum {
     DBNumberPadButton0 = 0,
     DBNumberPadButton1,
@@ -29,7 +27,7 @@ typedef enum {
 
 @end
 
-@interface DBNumberPadInputView : DBViewWithNibLayout
+@interface DBNumberPadInputView : UIView
 @property (nonatomic, weak) id <DBNumberPadInputDelegate> delegate;
 @property (nonatomic, strong) IBOutlet UIButton *bottomLeftButton;
 @property (nonatomic, readonly) BOOL enableInputClicksWhenVisible;

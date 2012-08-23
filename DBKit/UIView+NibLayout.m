@@ -1,14 +1,14 @@
 //
-//  DBViewWithNibLayout.m
+//  UIView+NibLayout.m
 //  DBKit
 //
 //  Created by David Barry on 1/22/12.
 //  Copyright (c) 2012 David Barry. All rights reserved.
 //
 
-#import "DBViewWithNibLayout.h"
+#import "UIView+NibLayout.h"
 
-@implementation DBViewWithNibLayout
+@implementation UIView (NibLayout)
 
 + (id)viewFromNib {
     UINib *nib = [UINib nibWithNibName:[self nibName] bundle:[NSBundle mainBundle]];

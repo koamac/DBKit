@@ -14,7 +14,6 @@
 #import "DBTableViewCell.h"
 
 //Views
-#import "DBViewWithNibLayout.h"
 #import "DBNumberPadInputView.h"
 #import "DBDecimalTextField.h"
 #import "DBPercentDecimalTextField.h"
