@@ -12,12 +12,10 @@
 
 + (id)viewFromNib {
     UINib *nib = [UINib nibWithNibName:[self nibName] bundle:[NSBundle mainBundle]];
-    
-    if (!nib) {
-        DLog(@"Warning: No nib was found named: %@", [self nibName]);
-    }
-    
     NSArray *nibArray = [nib instantiateWithOwner:nil options:nil];
+    
+    NSAssert2(([nibArray count] > 0) && [[nibArray objectAtIndex:0] isKindOfClass:[self class]],
+              @"Nib '%@' does not appear to contain a valid %@", [self nibName], NSStringFromClass([self class]));
     
     id view = nil;
     
