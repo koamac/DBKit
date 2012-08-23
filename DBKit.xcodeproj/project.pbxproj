@@ -28,7 +28,7 @@
 		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
 		FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
-		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; };
+		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E7151BDED900AA67E3 /* DBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
