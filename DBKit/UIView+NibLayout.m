@@ -12,6 +12,11 @@
 
 + (id)viewFromNib {
     UINib *nib = [UINib nibWithNibName:[self nibName] bundle:[NSBundle mainBundle]];
+    
+    if (!nib) {
+        DLog(@"Warning: No nib was found named: %@", [self nibName]);
+    }
+    
     NSArray *nibArray = [nib instantiateWithOwner:nil options:nil];
     
     id view = nil;
