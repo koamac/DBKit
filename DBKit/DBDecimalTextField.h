@@ -11,7 +11,7 @@
 @class DBNumberPadInputView;
 
 @interface DBDecimalTextField : DBTextField
-@property (nonatomic, strong) DBNumberPadInputView *numberPad;
+@property (nonatomic, readonly) DBNumberPadInputView *numberPad;
 @property (nonatomic) NSDecimalNumber *decimalValue;
 @property (nonatomic, strong) NSNumberFormatter *decimalFormatter;
 

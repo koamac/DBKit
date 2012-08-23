@@ -18,11 +18,7 @@ const int kDefaultMaximumNumberOfDigits = 0;
 
 @implementation DBMonetaryTextField
 @synthesize numberPad = _numberPad;
-@synthesize decimalValue = _decimalValue;
-@synthesize maximumValue = _maximumValue;
 @synthesize priceFormatter = _priceFormatter;
-@synthesize digitsAfterDecimal = _digitsAfterDecimal;
-@synthesize maximumNumberOfDigits = _maximumNumberOfDigits;
 
 #pragma mark -
 #pragma mark init

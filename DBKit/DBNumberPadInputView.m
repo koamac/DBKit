@@ -15,9 +15,6 @@
 @end
 
 @implementation DBNumberPadInputView
-@synthesize delegate = _delegate;
-@synthesize bottomLeftButton = _bottomLeftButton;
-@synthesize deleteRepeatTimer = _deleteRepeatTimer;
 
 - (IBAction)buttonTapped:(id)sender {
     [[UIDevice currentDevice] playInputClick];

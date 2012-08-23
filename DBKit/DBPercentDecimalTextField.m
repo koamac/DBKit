@@ -16,7 +16,6 @@ NSString * const kPercentSymbol = @"%";
 @end
 
 @implementation DBPercentDecimalTextField
-@synthesize percentLabel = _percentLabel;
 
 #pragma mark -
 #pragma mark Init 

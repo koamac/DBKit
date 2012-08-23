@@ -17,11 +17,8 @@
 const int kDefaultMaximumNumberOfDecimalDigits = 0;
 
 @implementation DBDecimalTextField
-@synthesize numberPad = _numberPad;
-@synthesize defaultValue = _defaultValue;
-@synthesize maximumValue = _maximumValue;
-@synthesize maximumNumberOfDigits = _maximumNumberOfDigits;
 @synthesize decimalFormatter = _decimalFormatter;
+@synthesize numberPad = _numberPad;
 
 #pragma mark -
 #pragma mark Init
@@ -98,7 +95,7 @@ const int kDefaultMaximumNumberOfDecimalDigits = 0;
 #pragma mark Accessors
 - (DBNumberPadInputView *)numberPad {
     if (!_numberPad) 
-        self.numberPad = [DBNumberPadInputView sharedNumberPadInputView];
+        _numberPad = [DBNumberPadInputView sharedNumberPadInputView];
     
     return  _numberPad;
 }
