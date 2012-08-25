@@ -28,6 +28,16 @@
 		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
 		FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
+		FBAA6E4915E86FF200C27883 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */; };
+		FBAA6F1715E877EC00C27883 /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0E15E877EC00C27883 /* backspaceButton.png */; };
+		FBAA6F1815E877EC00C27883 /* backspaceButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0F15E877EC00C27883 /* backspaceButton@2x.png */; };
+		FBAA6F1915E877EC00C27883 /* backspaceButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1015E877EC00C27883 /* backspaceButtonSelected.png */; };
+		FBAA6F1A15E877EC00C27883 /* backspaceButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1115E877EC00C27883 /* backspaceButtonSelected@2x.png */; };
+		FBAA6F1B15E877EC00C27883 /* DBNumberPadInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1215E877EC00C27883 /* DBNumberPadInputView.xib */; };
+		FBAA6F1C15E877EC00C27883 /* numberPadBackdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1315E877EC00C27883 /* numberPadBackdrop.png */; };
+		FBAA6F1D15E877EC00C27883 /* numberPadBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */; };
+		FBAA6F1E15E877EC00C27883 /* plainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1515E877EC00C27883 /* plainButton.png */; };
+		FBAA6F1F15E877EC00C27883 /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1615E877EC00C27883 /* plainButton@2x.png */; };
 		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
@@ -55,15 +65,6 @@
 		FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
 		FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberFormatting.h; sourceTree = "<group>"; };
 		FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberFormatting.m; sourceTree = "<group>"; };
-		FB264451151C5FE10083AFA4 /* DBNumberPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberPadInputView.xib; sourceTree = "<group>"; };
-		FB264452151C60100083AFA4 /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButton.png; sourceTree = "<group>"; };
-		FB264453151C60100083AFA4 /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButton@2x.png"; sourceTree = "<group>"; };
-		FB264454151C60100083AFA4 /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButtonSelected.png; sourceTree = "<group>"; };
-		FB264455151C60100083AFA4 /* backspaceButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButtonSelected@2x.png"; sourceTree = "<group>"; };
-		FB264456151C60100083AFA4 /* numberPadBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberPadBackdrop.png; sourceTree = "<group>"; };
-		FB264457151C60100083AFA4 /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numberPadBackdrop@2x.png"; sourceTree = "<group>"; };
-		FB264458151C60100083AFA4 /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plainButton.png; sourceTree = "<group>"; };
-		FB264459151C60100083AFA4 /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plainButton@2x.png"; sourceTree = "<group>"; };
 		FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
 		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LogFontNames.h"; sourceTree = "<group>"; };
@@ -73,6 +74,20 @@
 		FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
 		FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
 		FBA82D87151BE3CD006E1554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FBAA6E4C15E86FF200C27883 /* DBKitResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBKitResources-Info.plist"; sourceTree = "<group>"; };
+		FBAA6E4E15E86FF200C27883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBAA6E5015E86FF200C27883 /* DBKitResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBKitResources-Prefix.pch"; sourceTree = "<group>"; };
+		FBAA6F0E15E877EC00C27883 /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backspaceButton.png; path = DBKitResources/NumPad/backspaceButton.png; sourceTree = SOURCE_ROOT; };
+		FBAA6F0F15E877EC00C27883 /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backspaceButton@2x.png"; path = "DBKitResources/NumPad/backspaceButton@2x.png"; sourceTree = SOURCE_ROOT; };
+		FBAA6F1015E877EC00C27883 /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backspaceButtonSelected.png; path = DBKitResources/NumPad/backspaceButtonSelected.png; sourceTree = SOURCE_ROOT; };
+		FBAA6F1115E877EC00C27883 /* backspaceButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backspaceButtonSelected@2x.png"; path = "DBKitResources/NumPad/backspaceButtonSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		FBAA6F1215E877EC00C27883 /* DBNumberPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DBNumberPadInputView.xib; path = DBKitResources/NumPad/DBNumberPadInputView.xib; sourceTree = SOURCE_ROOT; };
+		FBAA6F1315E877EC00C27883 /* numberPadBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numberPadBackdrop.png; path = DBKitResources/NumPad/numberPadBackdrop.png; sourceTree = SOURCE_ROOT; };
+		FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "numberPadBackdrop@2x.png"; path = "DBKitResources/NumPad/numberPadBackdrop@2x.png"; sourceTree = SOURCE_ROOT; };
+		FBAA6F1515E877EC00C27883 /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plainButton.png; path = DBKitResources/NumPad/plainButton.png; sourceTree = SOURCE_ROOT; };
+		FBAA6F1615E877EC00C27883 /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plainButton@2x.png"; path = "DBKitResources/NumPad/plainButton@2x.png"; sourceTree = SOURCE_ROOT; };
 		FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
 		FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +107,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FBAA6E4415E86FF200C27883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAA6E4915E86FF200C27883 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBCDE2B8151BD9AC00AA67E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,28 +128,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB264424151C5C1C0083AFA4 /* DBKit Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FB264426151C5C2A0083AFA4 /* NumPad */,
-			);
-			name = "DBKit Resources";
-			sourceTree = "<group>";
-		};
 		FB264426151C5C2A0083AFA4 /* NumPad */ = {
 			isa = PBXGroup;
 			children = (
-				FB264452151C60100083AFA4 /* backspaceButton.png */,
-				FB264453151C60100083AFA4 /* backspaceButton@2x.png */,
-				FB264454151C60100083AFA4 /* backspaceButtonSelected.png */,
-				FB264455151C60100083AFA4 /* backspaceButtonSelected@2x.png */,
-				FB264456151C60100083AFA4 /* numberPadBackdrop.png */,
-				FB264457151C60100083AFA4 /* numberPadBackdrop@2x.png */,
-				FB264458151C60100083AFA4 /* plainButton.png */,
-				FB264459151C60100083AFA4 /* plainButton@2x.png */,
-				FB264451151C5FE10083AFA4 /* DBNumberPadInputView.xib */,
+				FBAA6F0E15E877EC00C27883 /* backspaceButton.png */,
+				FBAA6F0F15E877EC00C27883 /* backspaceButton@2x.png */,
+				FBAA6F1015E877EC00C27883 /* backspaceButtonSelected.png */,
+				FBAA6F1115E877EC00C27883 /* backspaceButtonSelected@2x.png */,
+				FBAA6F1215E877EC00C27883 /* DBNumberPadInputView.xib */,
+				FBAA6F1315E877EC00C27883 /* numberPadBackdrop.png */,
+				FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */,
+				FBAA6F1515E877EC00C27883 /* plainButton.png */,
+				FBAA6F1615E877EC00C27883 /* plainButton@2x.png */,
 			);
 			name = NumPad;
+			path = ../DBKit;
 			sourceTree = "<group>";
 		};
 		FB264445151C5E9E0083AFA4 /* Formatters */ = {
@@ -161,10 +177,30 @@
 			name = Macros;
 			sourceTree = "<group>";
 		};
+		FBAA6E4A15E86FF200C27883 /* DBKitResources */ = {
+			isa = PBXGroup;
+			children = (
+				FB264426151C5C2A0083AFA4 /* NumPad */,
+				FBAA6E4B15E86FF200C27883 /* Supporting Files */,
+			);
+			path = DBKitResources;
+			sourceTree = "<group>";
+		};
+		FBAA6E4B15E86FF200C27883 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA6E4C15E86FF200C27883 /* DBKitResources-Info.plist */,
+				FBAA6E4D15E86FF200C27883 /* InfoPlist.strings */,
+				FBAA6E5015E86FF200C27883 /* DBKitResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FBCDE2B0151BD9AC00AA67E3 = {
 			isa = PBXGroup;
 			children = (
 				FBCDE2C0151BD9AC00AA67E3 /* DBKit */,
+				FBAA6E4A15E86FF200C27883 /* DBKitResources */,
 				FBCDE2BD151BD9AC00AA67E3 /* Frameworks */,
 				FBCDE2BC151BD9AC00AA67E3 /* Products */,
 			);
@@ -174,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */,
+				FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +221,7 @@
 				FB26441D151C59530083AFA4 /* QuartzCore.framework */,
 				FBA82D87151BE3CD006E1554 /* UIKit.framework */,
 				FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */,
+				FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,7 +236,6 @@
 				FBCDE307151BE14600AA67E3 /* Cells */,
 				FBCDE2FF151BDEDE00AA67E3 /* Views */,
 				FB264445151C5E9E0083AFA4 /* Formatters */,
-				FB264424151C5C1C0083AFA4 /* DBKit Resources */,
 				FBCDE2C1151BD9AC00AA67E3 /* Supporting Files */,
 			);
 			path = DBKit;
@@ -282,6 +319,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		FBAA6E4615E86FF200C27883 /* DBKitResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAA6E5415E86FF300C27883 /* Build configuration list for PBXNativeTarget "DBKitResources" */;
+			buildPhases = (
+				FBAA6E4315E86FF200C27883 /* Sources */,
+				FBAA6E4415E86FF200C27883 /* Frameworks */,
+				FBAA6E4515E86FF200C27883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBKitResources;
+			productName = DBKitResources;
+			productReference = FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		FBCDE2BA151BD9AC00AA67E3 /* DBKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBCDE2DF151BD9AC00AA67E3 /* Build configuration list for PBXNativeTarget "DBKit" */;
@@ -321,11 +375,38 @@
 			projectRoot = "";
 			targets = (
 				FBCDE2BA151BD9AC00AA67E3 /* DBKit */,
+				FBAA6E4615E86FF200C27883 /* DBKitResources */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FBAA6E4515E86FF200C27883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAA6F1715E877EC00C27883 /* backspaceButton.png in Resources */,
+				FBAA6F1815E877EC00C27883 /* backspaceButton@2x.png in Resources */,
+				FBAA6F1915E877EC00C27883 /* backspaceButtonSelected.png in Resources */,
+				FBAA6F1A15E877EC00C27883 /* backspaceButtonSelected@2x.png in Resources */,
+				FBAA6F1B15E877EC00C27883 /* DBNumberPadInputView.xib in Resources */,
+				FBAA6F1C15E877EC00C27883 /* numberPadBackdrop.png in Resources */,
+				FBAA6F1D15E877EC00C27883 /* numberPadBackdrop@2x.png in Resources */,
+				FBAA6F1E15E877EC00C27883 /* plainButton.png in Resources */,
+				FBAA6F1F15E877EC00C27883 /* plainButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FBAA6E4315E86FF200C27883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBCDE2B7151BD9AC00AA67E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +429,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBAA6E4D15E86FF200C27883 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBAA6E4E15E86FF200C27883 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB26440F151C58C50083AFA4 /* Beta */ = {
@@ -381,6 +473,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Beta;
+		};
+		FBAA6E5115E86FF200C27883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBAA6E5215E86FF200C27883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FBAA6E5315E86FF200C27883 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Beta;
 		};
@@ -461,6 +616,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FBAA6E5415E86FF300C27883 /* Build configuration list for PBXNativeTarget "DBKitResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAA6E5115E86FF200C27883 /* Debug */,
+				FBAA6E5215E86FF200C27883 /* Release */,
+				FBAA6E5315E86FF200C27883 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FBCDE2B5151BD9AC00AA67E3 /* Build configuration list for PBXProject "DBKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
