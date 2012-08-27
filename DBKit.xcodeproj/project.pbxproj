@@ -359,6 +359,7 @@
 		FBCDE2B2151BD9AC00AA67E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DB;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "David Barry";
 			};
