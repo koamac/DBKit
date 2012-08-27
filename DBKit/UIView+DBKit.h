@@ -1,5 +1,5 @@
 //
-//  UIView+NibLayout.h
+//  UIView+DBKit.h
 //  DBKit
 //
 //  Created by David Barry on 1/22/12.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (NibLayout)
+@interface UIView (DBKit)
 + (id)viewFromNib;
 + (NSString *)nibName;
+
+- (void)setAnchorPointWithoutMovingView:(CGPoint)anchorPoint;
 @end

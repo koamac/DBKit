@@ -1,6 +1,6 @@
 //
 //  DBNumberPadInputView.h
-//  DBNumericInput
+//  DBKit
 //
 //  Created by David Barry on 1/31/12.
 //  Copyright (c) 2011 David Barry

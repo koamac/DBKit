@@ -1,14 +1,14 @@
 //
-//  UIFont+LogFontNames.m
+//  UIFont+DBKit.m
 //  DBKit
 //
 //  Created by David Barry on 4/30/12.
 //  Copyright (c) 2012 David Barry. All rights reserved.
 //
 
-#import "UIFont+LogFontNames.h"
+#import "UIFont+DBKit.h"
 
-@implementation UIFont (LogFontNames)
+@implementation UIFont (DBKit)
 + (void)logAllFontNames {
     for (NSString *familyName in [self familyNames]) {
         [self logFontNamesForFamily:familyName];

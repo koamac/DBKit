@@ -1,5 +1,5 @@
 //
-//  UIFont+LogFontNames.h
+//  UIFont+DBKit.h
 //  DBKit
 //
 //  Created by David Barry on 4/30/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (LogFontNames)
+@interface UIFont (DBKit)
 + (void)logAllFontNames;
 + (void)logFontNamesForFamily:(NSString *)family;
 @end

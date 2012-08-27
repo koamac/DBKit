@@ -1,13 +1,13 @@
 //
 //  DBNumberPadInputView.m
-//  DBNumericInput
+//  DBKit
 //
 //  Created by David Barry on 1/31/12.
 //  Copyright (c) 2011 David Barry
 
 #import <UIKit/UIKit.h>
 #import "DBNumberPadInputView.h"
-#import "UIView+NibLayout.h"
+#import "UIView+DBKit.h"
 
 @interface DBNumberPadInputView ()
 @property (nonatomic, strong) NSTimer *deleteRepeatTimer;

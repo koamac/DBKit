@@ -1,5 +1,5 @@
 //
-//  NSTimer+Blocks.h
+//  NSTimer+DBKit.h
 //  DBKit
 //
 //  Created by David Barry on 4/30/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSTimer (Blocks)
+@interface NSTimer (DBKit)
 + (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo block:(void (^)())theBlock;
 + (NSTimer *)timerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo block:(void (^)())theBlock;
 @end

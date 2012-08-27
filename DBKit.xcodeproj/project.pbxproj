@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C471154F2090009F24BD /* NSTimer+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14C472154F2090009F24BD /* NSTimer+Blocks.m */; };
+		FB14C473154F2090009F24BD /* NSTimer+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C471154F2090009F24BD /* NSTimer+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB26441D151C59530083AFA4 /* QuartzCore.framework */; };
 		FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,12 +20,11 @@
 		FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */; };
 		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
-		FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */; };
-		FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */; };
-		FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */; };
-		FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */; };
-		FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */; };
+		FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */; };
+		FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */; };
+		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; };
+		FBA47B8815E1A14B00C6FB3C /* NSURL+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
 		FBAA6E4915E86FF200C27883 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */; };
 		FBAA6F1715E877EC00C27883 /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0E15E877EC00C27883 /* backspaceButton.png */; };
@@ -40,6 +38,8 @@
 		FBAA6F1F15E877EC00C27883 /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1615E877EC00C27883 /* plainButton@2x.png */; };
 		FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */; };
 		FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */; };
+		FBAA6F4015EB0F9A00C27883 /* UIFont+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F3F15EB0F9A00C27883 /* UIFont+DBKit.m */; };
+		FBAA6F4215EB103B00C27883 /* NSTimer+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F4115EB103B00C27883 /* NSTimer+DBKit.m */; };
 		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
@@ -48,16 +48,13 @@
 		FBCDE2F6151BDED900AA67E3 /* DBNibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */; };
 		FBCDE2F7151BDED900AA67E3 /* DBTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EA151BDED900AA67E3 /* DBTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2F8151BDED900AA67E3 /* DBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2EB151BDED900AA67E3 /* DBTableViewCell.m */; };
-		FBCDE2F9151BDED900AA67E3 /* UIView+NibLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EC151BDED900AA67E3 /* UIView+NibLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2FA151BDED900AA67E3 /* UIView+NibLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* UIView+NibLayout.m */; };
-		FBCDE2FB151BDED900AA67E3 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EE151BDED900AA67E3 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2EF151BDED900AA67E3 /* UIView+position.m */; };
+		FBCDE2F9151BDED900AA67E3 /* UIView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB14C471154F2090009F24BD /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
-		FB14C472154F2090009F24BD /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		FB14C471154F2090009F24BD /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
 		FB26441D151C59530083AFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
 		FB264429151C5E2C0083AFA4 /* DBDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDecimalTextField.m; sourceTree = "<group>"; };
@@ -69,12 +66,11 @@
 		FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberFormatting.m; sourceTree = "<group>"; };
 		FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
 		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
-		FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LogFontNames.h"; sourceTree = "<group>"; };
-		FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LogFontNames.m"; sourceTree = "<group>"; };
-		FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
-		FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
-		FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
-		FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
+		FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DBKit.h"; sourceTree = "<group>"; };
+		FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBKit.h"; sourceTree = "<group>"; };
+		FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBKit.m"; sourceTree = "<group>"; };
+		FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DBKit.h"; sourceTree = "<group>"; };
+		FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DBKit.m"; sourceTree = "<group>"; };
 		FBA82D87151BE3CD006E1554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +88,8 @@
 		FBAA6F1615E877EC00C27883 /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plainButton@2x.png"; path = "DBKitResources/NumPad/plainButton@2x.png"; sourceTree = SOURCE_ROOT; };
 		FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DBKit.h"; sourceTree = "<group>"; };
 		FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DBKit.m"; sourceTree = "<group>"; };
+		FBAA6F3F15EB0F9A00C27883 /* UIFont+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DBKit.m"; sourceTree = "<group>"; };
+		FBAA6F4115EB103B00C27883 /* NSTimer+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+DBKit.m"; sourceTree = "<group>"; };
 		FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
 		FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,10 +101,8 @@
 		FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNibTableViewCell.m; sourceTree = "<group>"; };
 		FBCDE2EA151BDED900AA67E3 /* DBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTableViewCell.h; sourceTree = "<group>"; };
 		FBCDE2EB151BDED900AA67E3 /* DBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTableViewCell.m; sourceTree = "<group>"; };
-		FBCDE2EC151BDED900AA67E3 /* UIView+NibLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NibLayout.h"; sourceTree = "<group>"; };
-		FBCDE2ED151BDED900AA67E3 /* UIView+NibLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NibLayout.m"; sourceTree = "<group>"; };
-		FBCDE2EE151BDED900AA67E3 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
-		FBCDE2EF151BDED900AA67E3 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKit.h"; sourceTree = "<group>"; };
+		FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKit.m"; sourceTree = "<group>"; };
 		FBCDE305151BE11B00AA67E3 /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,8 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				FBA47B8915E1A26400C6FB3C /* Numeric Input */,
-				FBCDE2EC151BDED900AA67E3 /* UIView+NibLayout.h */,
-				FBCDE2ED151BDED900AA67E3 /* UIView+NibLayout.m */,
 				FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */,
 				FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */,
 			);
@@ -268,18 +262,18 @@
 		FBCDE302151BDF1400AA67E3 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				FBA47B8115E1A14B00C6FB3C /* NSString+URLEncoding.h */,
-				FBA47B8215E1A14B00C6FB3C /* NSString+URLEncoding.m */,
-				FBA47B8315E1A14B00C6FB3C /* NSURL+QueryDictionary.h */,
-				FBA47B8415E1A14B00C6FB3C /* NSURL+QueryDictionary.m */,
-				FBCDE2EE151BDED900AA67E3 /* UIView+position.h */,
-				FBCDE2EF151BDED900AA67E3 /* UIView+position.m */,
-				FB14C471154F2090009F24BD /* NSTimer+Blocks.h */,
-				FB14C472154F2090009F24BD /* NSTimer+Blocks.m */,
-				FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */,
-				FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */,
+				FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */,
+				FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */,
+				FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */,
+				FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */,
+				FB14C471154F2090009F24BD /* NSTimer+DBKit.h */,
+				FBAA6F4115EB103B00C27883 /* NSTimer+DBKit.m */,
+				FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */,
+				FBAA6F3F15EB0F9A00C27883 /* UIFont+DBKit.m */,
 				FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */,
 				FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */,
+				FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */,
+				FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -305,8 +299,7 @@
 				FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */,
 				FBCDE2F5151BDED900AA67E3 /* DBNibTableViewCell.h in Headers */,
 				FBCDE2F7151BDED900AA67E3 /* DBTableViewCell.h in Headers */,
-				FBCDE2F9151BDED900AA67E3 /* UIView+NibLayout.h in Headers */,
-				FBCDE2FB151BDED900AA67E3 /* UIView+position.h in Headers */,
+				FBCDE2F9151BDED900AA67E3 /* UIView+DBKit.h in Headers */,
 				FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */,
 				FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */,
 				FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */,
@@ -314,10 +307,10 @@
 				FB264446151C5EE00083AFA4 /* DBNumberPadInputView.h in Headers */,
 				FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */,
 				FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */,
-				FB14C473154F2090009F24BD /* NSTimer+Blocks.h in Headers */,
-				FB34B6A0154F3DD500E7AE65 /* UIFont+LogFontNames.h in Headers */,
-				FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */,
-				FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */,
+				FB14C473154F2090009F24BD /* NSTimer+DBKit.h in Headers */,
+				FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */,
+				FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */,
+				FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */,
 				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
 				FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */,
 			);
@@ -420,19 +413,18 @@
 			files = (
 				FBCDE2F6151BDED900AA67E3 /* DBNibTableViewCell.m in Sources */,
 				FBCDE2F8151BDED900AA67E3 /* DBTableViewCell.m in Sources */,
-				FBCDE2FA151BDED900AA67E3 /* UIView+NibLayout.m in Sources */,
-				FBCDE2FC151BDED900AA67E3 /* UIView+position.m in Sources */,
+				FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */,
 				FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */,
 				FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */,
 				FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */,
 				FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */,
 				FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */,
-				FB14C474154F2090009F24BD /* NSTimer+Blocks.m in Sources */,
-				FB34B6A1154F3DD500E7AE65 /* UIFont+LogFontNames.m in Sources */,
-				FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */,
-				FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */,
+				FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */,
+				FBA47B8815E1A14B00C6FB3C /* NSURL+DBKit.m in Sources */,
 				FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */,
 				FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */,
+				FBAA6F4015EB0F9A00C27883 /* UIFont+DBKit.m in Sources */,
+				FBAA6F4215EB103B00C27883 /* NSTimer+DBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
