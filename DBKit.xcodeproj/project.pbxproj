@@ -38,6 +38,8 @@
 		FBAA6F1D15E877EC00C27883 /* numberPadBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */; };
 		FBAA6F1E15E877EC00C27883 /* plainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1515E877EC00C27883 /* plainButton.png */; };
 		FBAA6F1F15E877EC00C27883 /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1615E877EC00C27883 /* plainButton@2x.png */; };
+		FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */; };
+		FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */; };
 		FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
@@ -88,6 +90,8 @@
 		FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "numberPadBackdrop@2x.png"; path = "DBKitResources/NumPad/numberPadBackdrop@2x.png"; sourceTree = SOURCE_ROOT; };
 		FBAA6F1515E877EC00C27883 /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plainButton.png; path = DBKitResources/NumPad/plainButton.png; sourceTree = SOURCE_ROOT; };
 		FBAA6F1615E877EC00C27883 /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plainButton@2x.png"; path = "DBKitResources/NumPad/plainButton@2x.png"; sourceTree = SOURCE_ROOT; };
+		FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DBKit.h"; sourceTree = "<group>"; };
+		FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DBKit.m"; sourceTree = "<group>"; };
 		FBCA25B015E5CF6F0049E0A6 /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
 		FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
 		FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,6 +278,8 @@
 				FB14C472154F2090009F24BD /* NSTimer+Blocks.m */,
 				FB34B69E154F3DD500E7AE65 /* UIFont+LogFontNames.h */,
 				FB34B69F154F3DD500E7AE65 /* UIFont+LogFontNames.m */,
+				FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */,
+				FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				FBA47B8515E1A14B00C6FB3C /* NSString+URLEncoding.h in Headers */,
 				FBA47B8715E1A14B00C6FB3C /* NSURL+QueryDictionary.h in Headers */,
 				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
+				FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +432,7 @@
 				FBA47B8615E1A14B00C6FB3C /* NSString+URLEncoding.m in Sources */,
 				FBA47B8815E1A14B00C6FB3C /* NSURL+QueryDictionary.m in Sources */,
 				FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */,
+				FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
