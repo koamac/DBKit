@@ -196,10 +196,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBAA6F9B15EB47CB00C27883 /* DBCoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DBCoreData;
+			sourceTree = "<group>";
+		};
 		FBCDE2B0151BD9AC00AA67E3 = {
 			isa = PBXGroup;
 			children = (
 				FBCDE2C0151BD9AC00AA67E3 /* DBKit */,
+				FBAA6F9B15EB47CB00C27883 /* DBCoreData */,
 				FBAA6E4A15E86FF200C27883 /* DBKitResources */,
 				FBCDE2BD151BD9AC00AA67E3 /* Frameworks */,
 				FBCDE2BC151BD9AC00AA67E3 /* Products */,
