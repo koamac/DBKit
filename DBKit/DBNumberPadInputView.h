@@ -55,6 +55,7 @@ typedef enum {
 - (void)setBottomLeftButtonDot;
 - (void)setBottomLeftButton00;
 
++ (id)numberPadInputView;
 + (id)sharedNumberPadInputView;
 
 @end

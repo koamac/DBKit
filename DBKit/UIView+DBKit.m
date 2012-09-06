@@ -30,11 +30,15 @@
 
 #pragma mark - Nib Loading
 + (id)viewFromNib {
-    UINib *nib = [UINib nibWithNibName:[self nibName] bundle:[NSBundle mainBundle]];
+    return [self viewFromNibInBundle:[NSBundle mainBundle]];
+}
+
++ (id)viewFromNibInBundle:(NSBundle *)bundle {
+    UINib *nib = [UINib nibWithNibName:[self _nibName] bundle:bundle];
     NSArray *nibArray = [nib instantiateWithOwner:nil options:nil];
     
     NSAssert2(([nibArray count] > 0) && [[nibArray objectAtIndex:0] isKindOfClass:[self class]],
-              @"Nib '%@' does not appear to contain a valid %@", [self nibName], NSStringFromClass([self class]));
+              @"Nib '%@' does not appear to contain a valid %@", [self _nibName], NSStringFromClass([self class]));
     
     id view = nil;
     
@@ -48,7 +52,7 @@
     return view;
 }
 
-+ (NSString *)nibName {
++ (NSString *)_nibName {
     return NSStringFromClass([self class]);
 }
 

@@ -71,13 +71,21 @@
 }
 
 #pragma mark -
-#pragma mark View Loading and Singleton
+#pragma mark Initializers
++ (id)numberPadInputView {
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"DBKitResources" ofType:@"bundle"];
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:bundlePath];
+    return [DBNumberPadInputView viewFromNibInBundle:resourcesBundle];
+//    return [DBNumberPadInputView viewFromNib];
+}
+
 + (id)sharedNumberPadInputView {
     static dispatch_once_t onceQueue;
     static DBNumberPadInputView *numberPadInputView = nil;
     
-    dispatch_once(&onceQueue, ^{ 
-        numberPadInputView = [DBNumberPadInputView viewFromNib]; 
+    dispatch_once(&onceQueue, ^{
+        
+        numberPadInputView = [DBNumberPadInputView numberPadInputView];
     });
     
     return numberPadInputView;
