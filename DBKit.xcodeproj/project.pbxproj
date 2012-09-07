@@ -26,7 +26,6 @@
 		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; };
 		FBA47B8815E1A14B00C6FB3C /* NSURL+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
-		FBAA6E4915E86FF200C27883 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */; };
 		FBAA6F1715E877EC00C27883 /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0E15E877EC00C27883 /* backspaceButton.png */; };
 		FBAA6F1815E877EC00C27883 /* backspaceButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0F15E877EC00C27883 /* backspaceButton@2x.png */; };
 		FBAA6F1915E877EC00C27883 /* backspaceButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1015E877EC00C27883 /* backspaceButtonSelected.png */; };
@@ -75,8 +74,6 @@
 		FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAA6E4815E86FF200C27883 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		FBAA6E4C15E86FF200C27883 /* DBKitResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBKitResources-Info.plist"; sourceTree = "<group>"; };
-		FBAA6E4E15E86FF200C27883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FBAA6E5015E86FF200C27883 /* DBKitResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBKitResources-Prefix.pch"; sourceTree = "<group>"; };
 		FBAA6F0E15E877EC00C27883 /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backspaceButton.png; path = DBKitResources/NumPad/backspaceButton.png; sourceTree = SOURCE_ROOT; };
 		FBAA6F0F15E877EC00C27883 /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backspaceButton@2x.png"; path = "DBKitResources/NumPad/backspaceButton@2x.png"; sourceTree = SOURCE_ROOT; };
 		FBAA6F1015E877EC00C27883 /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backspaceButtonSelected.png; path = DBKitResources/NumPad/backspaceButtonSelected.png; sourceTree = SOURCE_ROOT; };
@@ -107,14 +104,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBAA6E4415E86FF200C27883 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBAA6E4915E86FF200C27883 /* CoreFoundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBCDE2B8151BD9AC00AA67E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,8 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				FBAA6E4C15E86FF200C27883 /* DBKitResources-Info.plist */,
-				FBAA6E4D15E86FF200C27883 /* InfoPlist.strings */,
-				FBAA6E5015E86FF200C27883 /* DBKitResources-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -332,7 +319,6 @@
 			buildConfigurationList = FBAA6E5415E86FF300C27883 /* Build configuration list for PBXNativeTarget "DBKitResources" */;
 			buildPhases = (
 				FBAA6E4315E86FF200C27883 /* Sources */,
-				FBAA6E4415E86FF200C27883 /* Frameworks */,
 				FBAA6E4515E86FF200C27883 /* Resources */,
 			);
 			buildRules = (
@@ -439,17 +425,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		FBAA6E4D15E86FF200C27883 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBAA6E4E15E86FF200C27883 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		FB26440F151C58C50083AFA4 /* Beta */ = {
 			isa = XCBuildConfiguration;
@@ -488,16 +463,13 @@
 		FBAA6E5115E86FF200C27883 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -508,17 +480,14 @@
 		FBAA6E5215E86FF200C27883 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = bundle;
@@ -528,17 +497,14 @@
 		FBAA6E5315E86FF200C27883 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DBKitResources/DBKitResources-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "DBKitResources/DBKitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = bundle;
