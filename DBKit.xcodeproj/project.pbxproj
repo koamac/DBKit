@@ -21,9 +21,9 @@
 		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */; };
+		FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */; };
-		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; };
+		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBA47B8815E1A14B00C6FB3C /* NSURL+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */; };
 		FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA82D87151BE3CD006E1554 /* UIKit.framework */; };
 		FBAA6F1715E877EC00C27883 /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F0E15E877EC00C27883 /* backspaceButton.png */; };
@@ -35,7 +35,7 @@
 		FBAA6F1D15E877EC00C27883 /* numberPadBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1415E877EC00C27883 /* numberPadBackdrop@2x.png */; };
 		FBAA6F1E15E877EC00C27883 /* plainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1515E877EC00C27883 /* plainButton.png */; };
 		FBAA6F1F15E877EC00C27883 /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAA6F1615E877EC00C27883 /* plainButton@2x.png */; };
-		FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */; };
+		FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F3B15EB0AAF00C27883 /* UITableView+DBKit.m */; };
 		FBAA6F4015EB0F9A00C27883 /* UIFont+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F3F15EB0F9A00C27883 /* UIFont+DBKit.m */; };
 		FBAA6F4215EB103B00C27883 /* NSTimer+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA6F4115EB103B00C27883 /* NSTimer+DBKit.m */; };
@@ -306,8 +306,8 @@
 				FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */,
 				FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */,
 				FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */,
-				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
 				FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */,
+				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
