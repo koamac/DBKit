@@ -50,7 +50,23 @@
 		FBCDE2F9151BDED900AA67E3 /* UIView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBFCA6E915F9B43700393CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
+		FBFCA6EE15F9B43700393CED /* DBCoreData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBFCA6ED15F9B43700393CED /* DBCoreData.h */; };
+		FBFCA6F015F9B43700393CED /* DBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA6EF15F9B43700393CED /* DBCoreData.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBFCA6E615F9B43700393CED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				FBFCA6EE15F9B43700393CED /* DBCoreData.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB14C471154F2090009F24BD /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
@@ -101,6 +117,10 @@
 		FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKit.h"; sourceTree = "<group>"; };
 		FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKit.m"; sourceTree = "<group>"; };
 		FBCDE305151BE11B00AA67E3 /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
+		FBFCA6E815F9B43700393CED /* libDBCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDBCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFCA6EC15F9B43700393CED /* DBCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		FBFCA6ED15F9B43700393CED /* DBCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBCoreData.h; sourceTree = "<group>"; };
+		FBFCA6EF15F9B43700393CED /* DBCoreData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBCoreData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,14 @@
 				FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */,
 				FBA82D88151BE3CD006E1554 /* UIKit.framework in Frameworks */,
 				FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFCA6E515F9B43700393CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCA6E915F9B43700393CED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,19 +211,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FBAA6F9B15EB47CB00C27883 /* DBCoreData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DBCoreData;
-			sourceTree = "<group>";
-		};
 		FBCDE2B0151BD9AC00AA67E3 = {
 			isa = PBXGroup;
 			children = (
 				FBCDE2C0151BD9AC00AA67E3 /* DBKit */,
-				FBAA6F9B15EB47CB00C27883 /* DBCoreData */,
 				FBAA6E4A15E86FF200C27883 /* DBKitResources */,
+				FBFCA6EA15F9B43700393CED /* DBCoreData */,
 				FBCDE2BD151BD9AC00AA67E3 /* Frameworks */,
 				FBCDE2BC151BD9AC00AA67E3 /* Products */,
 			);
@@ -206,6 +227,7 @@
 			children = (
 				FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */,
 				FBAA6E4715E86FF200C27883 /* DBKitResources.bundle */,
+				FBFCA6E815F9B43700393CED /* libDBCoreData.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,6 +306,24 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		FBFCA6EA15F9B43700393CED /* DBCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCA6ED15F9B43700393CED /* DBCoreData.h */,
+				FBFCA6EF15F9B43700393CED /* DBCoreData.m */,
+				FBFCA6EB15F9B43700393CED /* Supporting Files */,
+			);
+			path = DBCoreData;
+			sourceTree = "<group>";
+		};
+		FBFCA6EB15F9B43700393CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCA6EC15F9B43700393CED /* DBCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -347,6 +387,23 @@
 			productReference = FBCDE2BB151BD9AC00AA67E3 /* libDBKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		FBFCA6E715F9B43700393CED /* DBCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFCA6F415F9B43700393CED /* Build configuration list for PBXNativeTarget "DBCoreData" */;
+			buildPhases = (
+				FBFCA6E415F9B43700393CED /* Sources */,
+				FBFCA6E515F9B43700393CED /* Frameworks */,
+				FBFCA6E615F9B43700393CED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBCoreData;
+			productName = DBCoreData;
+			productReference = FBFCA6E815F9B43700393CED /* libDBCoreData.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -370,6 +427,7 @@
 			projectRoot = "";
 			targets = (
 				FBCDE2BA151BD9AC00AA67E3 /* DBKit */,
+				FBFCA6E715F9B43700393CED /* DBCoreData */,
 				FBAA6E4615E86FF200C27883 /* DBKitResources */,
 			);
 		};
@@ -420,6 +478,14 @@
 				FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */,
 				FBAA6F4015EB0F9A00C27883 /* UIFont+DBKit.m in Sources */,
 				FBAA6F4215EB103B00C27883 /* NSTimer+DBKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFCA6E415F9B43700393CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCA6F015F9B43700393CED /* DBCoreData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +651,51 @@
 			};
 			name = Release;
 		};
+		FBFCA6F115F9B43700393CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/DBCoreData.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBCoreData/DBCoreData-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBFCA6F215F9B43700393CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/DBCoreData.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBCoreData/DBCoreData-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FBFCA6F315F9B43700393CED /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/DBCoreData.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBCoreData/DBCoreData-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Beta;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,6 +728,15 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FBFCA6F415F9B43700393CED /* Build configuration list for PBXNativeTarget "DBCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFCA6F115F9B43700393CED /* Debug */,
+				FBFCA6F215F9B43700393CED /* Release */,
+				FBFCA6F315F9B43700393CED /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
