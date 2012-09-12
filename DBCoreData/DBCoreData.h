@@ -25,6 +25,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "DBManagedObject.h"
 
 @interface DBCoreData : NSObject
 + (void)standUp; //Prepare the core data stack

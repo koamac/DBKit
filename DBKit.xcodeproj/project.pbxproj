@@ -21,6 +21,8 @@
 		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4E96FB160051C1000603F0 /* DBManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4E96FA160051C1000603F0 /* DBManagedObject.m */; };
+		FB4E970616005C43000603F0 /* DBManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4E96F9160051C1000603F0 /* DBManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */; };
 		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,22 +53,9 @@
 		FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBFCA6E915F9B43700393CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
-		FBFCA6EE15F9B43700393CED /* DBCoreData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBFCA6ED15F9B43700393CED /* DBCoreData.h */; };
+		FBFCA6EE15F9B43700393CED /* DBCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFCA6ED15F9B43700393CED /* DBCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBFCA6F015F9B43700393CED /* DBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA6EF15F9B43700393CED /* DBCoreData.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FBFCA6E615F9B43700393CED /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				FBFCA6EE15F9B43700393CED /* DBCoreData.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB14C471154F2090009F24BD /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
@@ -82,6 +71,8 @@
 		FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
 		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DBKit.h"; sourceTree = "<group>"; };
+		FB4E96F9160051C1000603F0 /* DBManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagedObject.h; sourceTree = "<group>"; };
+		FB4E96FA160051C1000603F0 /* DBManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagedObject.m; sourceTree = "<group>"; };
 		FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBKit.h"; sourceTree = "<group>"; };
 		FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBKit.m"; sourceTree = "<group>"; };
 		FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DBKit.h"; sourceTree = "<group>"; };
@@ -311,6 +302,8 @@
 			children = (
 				FBFCA6ED15F9B43700393CED /* DBCoreData.h */,
 				FBFCA6EF15F9B43700393CED /* DBCoreData.m */,
+				FB4E96F9160051C1000603F0 /* DBManagedObject.h */,
+				FB4E96FA160051C1000603F0 /* DBManagedObject.m */,
 				FBFCA6EB15F9B43700393CED /* Supporting Files */,
 			);
 			path = DBCoreData;
@@ -327,6 +320,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		FB7FE31716005D3600AF431F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4E970616005C43000603F0 /* DBManagedObject.h in Headers */,
+				FBFCA6EE15F9B43700393CED /* DBCoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBCDE2B9151BD9AC00AA67E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,7 +395,7 @@
 			buildPhases = (
 				FBFCA6E415F9B43700393CED /* Sources */,
 				FBFCA6E515F9B43700393CED /* Frameworks */,
-				FBFCA6E615F9B43700393CED /* CopyFiles */,
+				FB7FE31716005D3600AF431F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -486,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBFCA6F015F9B43700393CED /* DBCoreData.m in Sources */,
+				FB4E96FB160051C1000603F0 /* DBManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +740,7 @@
 				FBFCA6F315F9B43700393CED /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
