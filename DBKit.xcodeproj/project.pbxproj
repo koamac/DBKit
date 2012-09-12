@@ -45,10 +45,6 @@
 		FBCA25B315E5CF6F0049E0A6 /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA25B115E5CF6F0049E0A6 /* DBTextField.m */; };
 		FBCDE2BF151BD9AC00AA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCDE2BE151BD9AC00AA67E3 /* Foundation.framework */; };
 		FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E7151BDED900AA67E3 /* DBMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2F5151BDED900AA67E3 /* DBNibTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2F6151BDED900AA67E3 /* DBNibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */; };
-		FBCDE2F7151BDED900AA67E3 /* DBTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EA151BDED900AA67E3 /* DBTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCDE2F8151BDED900AA67E3 /* DBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2EB151BDED900AA67E3 /* DBTableViewCell.m */; };
 		FBCDE2F9151BDED900AA67E3 /* UIView+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */; };
 		FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE305151BE11B00AA67E3 /* DBCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,10 +97,6 @@
 		FBCDE2C2151BD9AC00AA67E3 /* DBKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBKit-Prefix.pch"; sourceTree = "<group>"; };
 		FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBKit.h; sourceTree = "<group>"; };
 		FBCDE2E7151BDED900AA67E3 /* DBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMacros.h; sourceTree = "<group>"; };
-		FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNibTableViewCell.h; sourceTree = "<group>"; };
-		FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNibTableViewCell.m; sourceTree = "<group>"; };
-		FBCDE2EA151BDED900AA67E3 /* DBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTableViewCell.h; sourceTree = "<group>"; };
-		FBCDE2EB151BDED900AA67E3 /* DBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTableViewCell.m; sourceTree = "<group>"; };
 		FBCDE2EC151BDED900AA67E3 /* UIView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKit.h"; sourceTree = "<group>"; };
 		FBCDE2ED151BDED900AA67E3 /* UIView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKit.m"; sourceTree = "<group>"; };
 		FBCDE305151BE11B00AA67E3 /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
@@ -241,7 +233,6 @@
 				FBCDE305151BE11B00AA67E3 /* DBCategories.h */,
 				FBA82D82151BE382006E1554 /* Macros */,
 				FBCDE302151BDF1400AA67E3 /* Categories */,
-				FBCDE307151BE14600AA67E3 /* Cells */,
 				FBCDE2FF151BDEDE00AA67E3 /* Views */,
 				FB264445151C5E9E0083AFA4 /* Formatters */,
 				FBCDE2C1151BD9AC00AA67E3 /* Supporting Files */,
@@ -286,17 +277,6 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		FBCDE307151BE14600AA67E3 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				FBCDE2E8151BDED900AA67E3 /* DBNibTableViewCell.h */,
-				FBCDE2E9151BDED900AA67E3 /* DBNibTableViewCell.m */,
-				FBCDE2EA151BDED900AA67E3 /* DBTableViewCell.h */,
-				FBCDE2EB151BDED900AA67E3 /* DBTableViewCell.m */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
 		FBFCA6EA15F9B43700393CED /* DBCoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,8 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBCDE2F4151BDED900AA67E3 /* DBMacros.h in Headers */,
-				FBCDE2F5151BDED900AA67E3 /* DBNibTableViewCell.h in Headers */,
-				FBCDE2F7151BDED900AA67E3 /* DBTableViewCell.h in Headers */,
 				FBCDE2F9151BDED900AA67E3 /* UIView+DBKit.h in Headers */,
 				FBCDE306151BE11B00AA67E3 /* DBCategories.h in Headers */,
 				FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */,
@@ -466,8 +444,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBCDE2F6151BDED900AA67E3 /* DBNibTableViewCell.m in Sources */,
-				FBCDE2F8151BDED900AA67E3 /* DBTableViewCell.m in Sources */,
 				FBCDE2FA151BDED900AA67E3 /* UIView+DBKit.m in Sources */,
 				FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */,
 				FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */,

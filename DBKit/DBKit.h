@@ -9,10 +9,6 @@
 //Macros
 #import "DBMacros.h"
 
-//Cells
-#import "DBNibTableViewCell.h"
-#import "DBTableViewCell.h"
-
 //Views
 #import "DBTextField.h"
 #import "DBNumberPadInputView.h"
