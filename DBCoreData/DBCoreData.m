@@ -107,7 +107,7 @@ static NSManagedObjectModel *_managedObjectModel;
     if (_persistentStoreCoordinator == nil) {
         NSURL *storeURL = [self persistenStoreURL];
         NSPersistentStoreCoordinator *psc = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-        NSDictionary *options = @{ NSMigratePersistentStoresAutomaticallyOption : [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption : [NSNumber numberWithBool:YES] };
+        NSDictionary *options = @{ NSMigratePersistentStoresAutomaticallyOption : @(YES), NSInferMappingModelAutomaticallyOption : @(YES) };
 
         NSError *error = nil;
         if (![psc addPersistentStoreWithType:NSSQLiteStoreType
