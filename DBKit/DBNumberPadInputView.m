@@ -79,10 +79,10 @@
 }
 
 + (id)sharedNumberPadInputView {
-    static dispatch_once_t onceQueue;
+    static dispatch_once_t onceToken;
     static DBNumberPadInputView *numberPadInputView = nil;
     
-    dispatch_once(&onceQueue, ^{
+    dispatch_once(&onceToken, ^{
         
         numberPadInputView = [DBNumberPadInputView numberPadInputView];
     });
