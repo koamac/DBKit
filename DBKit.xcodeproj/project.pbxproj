@@ -16,13 +16,13 @@
 		FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */; };
 		FB264446151C5EE00083AFA4 /* DBNumberPadInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */; };
-		FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */; };
 		FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */; };
 		FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB4E96FB160051C1000603F0 /* DBManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4E96FA160051C1000603F0 /* DBManagedObject.m */; };
 		FB4E970616005C43000603F0 /* DBManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4E96F9160051C1000603F0 /* DBManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB74825E162D597C005DB10A /* NSNumberFormatter+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB74825C162D597C005DB10A /* NSNumberFormatter+DBKit.h */; };
+		FB74825F162D597C005DB10A /* NSNumberFormatter+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FB74825D162D597C005DB10A /* NSNumberFormatter+DBKit.m */; };
 		FBA47B8515E1A14B00C6FB3C /* NSString+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */; };
 		FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,13 +62,13 @@
 		FB26442B151C5E2C0083AFA4 /* DBMonetaryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMonetaryTextField.m; sourceTree = "<group>"; };
 		FB264430151C5E620083AFA4 /* DBNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberPadInputView.h; sourceTree = "<group>"; };
 		FB264431151C5E620083AFA4 /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
-		FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberFormatting.h; sourceTree = "<group>"; };
-		FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberFormatting.m; sourceTree = "<group>"; };
 		FB26447A151C62C80083AFA4 /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
 		FB26447B151C62C80083AFA4 /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DBKit.h"; sourceTree = "<group>"; };
 		FB4E96F9160051C1000603F0 /* DBManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagedObject.h; sourceTree = "<group>"; };
 		FB4E96FA160051C1000603F0 /* DBManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagedObject.m; sourceTree = "<group>"; };
+		FB74825C162D597C005DB10A /* NSNumberFormatter+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+DBKit.h"; sourceTree = "<group>"; };
+		FB74825D162D597C005DB10A /* NSNumberFormatter+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+DBKit.m"; sourceTree = "<group>"; };
 		FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBKit.h"; sourceTree = "<group>"; };
 		FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBKit.m"; sourceTree = "<group>"; };
 		FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DBKit.h"; sourceTree = "<group>"; };
@@ -143,15 +143,6 @@
 			);
 			name = NumPad;
 			path = ../DBKit;
-			sourceTree = "<group>";
-		};
-		FB264445151C5E9E0083AFA4 /* Formatters */ = {
-			isa = PBXGroup;
-			children = (
-				FB26444D151C5F4E0083AFA4 /* DBNumberFormatting.h */,
-				FB26444E151C5F4E0083AFA4 /* DBNumberFormatting.m */,
-			);
-			name = Formatters;
 			sourceTree = "<group>";
 		};
 		FBA47B8915E1A26400C6FB3C /* Numeric Input */ = {
@@ -234,7 +225,6 @@
 				FBA82D82151BE382006E1554 /* Macros */,
 				FBCDE302151BDF1400AA67E3 /* Categories */,
 				FBCDE2FF151BDEDE00AA67E3 /* Views */,
-				FB264445151C5E9E0083AFA4 /* Formatters */,
 				FBCDE2C1151BD9AC00AA67E3 /* Supporting Files */,
 			);
 			path = DBKit;
@@ -261,12 +251,14 @@
 		FBCDE302151BDF1400AA67E3 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FB74825C162D597C005DB10A /* NSNumberFormatter+DBKit.h */,
+				FB74825D162D597C005DB10A /* NSNumberFormatter+DBKit.m */,
 				FBA47B8115E1A14B00C6FB3C /* NSString+DBKit.h */,
 				FBA47B8215E1A14B00C6FB3C /* NSString+DBKit.m */,
-				FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */,
-				FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */,
 				FB14C471154F2090009F24BD /* NSTimer+DBKit.h */,
 				FBAA6F4115EB103B00C27883 /* NSTimer+DBKit.m */,
+				FBA47B8315E1A14B00C6FB3C /* NSURL+DBKit.h */,
+				FBA47B8415E1A14B00C6FB3C /* NSURL+DBKit.m */,
 				FB34B69E154F3DD500E7AE65 /* UIFont+DBKit.h */,
 				FBAA6F3F15EB0F9A00C27883 /* UIFont+DBKit.m */,
 				FBAA6F3A15EB0AAF00C27883 /* UITableView+DBKit.h */,
@@ -320,7 +312,6 @@
 				FB26442C151C5E2C0083AFA4 /* DBDecimalTextField.h in Headers */,
 				FB26442E151C5E2C0083AFA4 /* DBMonetaryTextField.h in Headers */,
 				FB264446151C5EE00083AFA4 /* DBNumberPadInputView.h in Headers */,
-				FB26444F151C5F4E0083AFA4 /* DBNumberFormatting.h in Headers */,
 				FB26447C151C62C80083AFA4 /* DBPercentDecimalTextField.h in Headers */,
 				FB14C473154F2090009F24BD /* NSTimer+DBKit.h in Headers */,
 				FB34B6A0154F3DD500E7AE65 /* UIFont+DBKit.h in Headers */,
@@ -328,6 +319,7 @@
 				FBA47B8715E1A14B00C6FB3C /* NSURL+DBKit.h in Headers */,
 				FBAA6F3C15EB0AAF00C27883 /* UITableView+DBKit.h in Headers */,
 				FBCA25B215E5CF6F0049E0A6 /* DBTextField.h in Headers */,
+				FB74825E162D597C005DB10A /* NSNumberFormatter+DBKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +440,6 @@
 				FB26442D151C5E2C0083AFA4 /* DBDecimalTextField.m in Sources */,
 				FB26442F151C5E2C0083AFA4 /* DBMonetaryTextField.m in Sources */,
 				FB264447151C5EE70083AFA4 /* DBNumberPadInputView.m in Sources */,
-				FB264450151C5F4E0083AFA4 /* DBNumberFormatting.m in Sources */,
 				FB26447D151C62C80083AFA4 /* DBPercentDecimalTextField.m in Sources */,
 				FBA47B8615E1A14B00C6FB3C /* NSString+DBKit.m in Sources */,
 				FBA47B8815E1A14B00C6FB3C /* NSURL+DBKit.m in Sources */,
@@ -456,6 +447,7 @@
 				FBAA6F3D15EB0AAF00C27883 /* UITableView+DBKit.m in Sources */,
 				FBAA6F4015EB0F9A00C27883 /* UIFont+DBKit.m in Sources */,
 				FBAA6F4215EB103B00C27883 /* NSTimer+DBKit.m in Sources */,
+				FB74825F162D597C005DB10A /* NSNumberFormatter+DBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

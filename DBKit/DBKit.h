@@ -15,4 +15,3 @@
 #import "DBDecimalTextField.h"
 #import "DBPercentDecimalTextField.h"
 #import "DBMonetaryTextField.h"
-#import "DBNumberFormatting.h"

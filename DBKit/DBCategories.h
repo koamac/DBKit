@@ -6,9 +6,10 @@
 //  Copyright (c) 2012 David Barry. All rights reserved.
 //
 
+#import "NSNumberFormatter+DBKit.h"
 #import "NSString+DBKit.h"
-#import "NSURL+DBKit.h"
 #import "NSTimer+DBKit.h"
+#import "NSURL+DBKit.h"
 #import "UIFont+DBKit.h"
 #import "UITableView+DBKit.h"
 #import "UIView+DBKit.h"

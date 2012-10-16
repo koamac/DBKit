@@ -25,8 +25,8 @@
 
 
 #import "DBDecimalTextField.h"
-#import "DBNumberFormatting.h"
 #import "DBNumberPadInputView.h"
+#import "NSNumberFormatter+DBKit.h"
 
 @interface DBDecimalTextField () <DBNumberPadInputDelegate>
 
@@ -145,7 +145,7 @@ const int kDefaultMaximumNumberOfDecimalDigits = 0;
 
 - (NSNumberFormatter *)decimalFormatter {
     if (!_decimalFormatter) {
-        _decimalFormatter = [DBNumberFormatting sharedDecimalFormatter];
+        _decimalFormatter = [NSNumberFormatter decimalFormatter];
     }
     
     return _decimalFormatter;

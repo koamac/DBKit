@@ -26,7 +26,7 @@
 
 #import "DBMonetaryTextField.h"
 #import "DBNumberPadInputView.h"
-#import "DBNumberFormatting.h"
+#import "NSNumberFormatter+DBKit.h"
 
 const int kDefaultMaximumNumberOfDigits = 0;
 
@@ -129,7 +129,7 @@ const int kDefaultMaximumNumberOfDigits = 0;
 
 - (NSNumberFormatter *)priceFormatter {
     if (!_priceFormatter) {
-        _priceFormatter = [DBNumberFormatting sharedPriceFormatter];
+        _priceFormatter = [NSNumberFormatter priceFormatter];
         self.digitsAfterDecimal = [_priceFormatter maximumFractionDigits];
     }
     return _priceFormatter;

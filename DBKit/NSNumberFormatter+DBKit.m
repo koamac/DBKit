@@ -1,9 +1,9 @@
 //
-//  DBNumberFormatting.h
+//  NSNumberFormatter+DBKit.m
 //  DBKit
 //
-//  Created by David Barry on 3/23/11.
-//  Copyright (c) 2011 David Barry
+//  Created by David Barry on 10/16/12.
+//  Copyright (c) 2012 David Barry. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,10 +23,24 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
+#import "NSNumberFormatter+DBKit.h"
 
-#import <Foundation/Foundation.h>
+@implementation NSNumberFormatter (DBKit)
 
-@interface DBNumberFormatting : NSObject
-+ (NSNumberFormatter *)sharedPriceFormatter;
-+ (NSNumberFormatter *)sharedDecimalFormatter;
++ (NSNumberFormatter *)priceFormatter {
+    NSNumberFormatter *priceFormatter = [[NSNumberFormatter alloc] init];
+    [priceFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    
+    return priceFormatter;
+}
+
++ (NSNumberFormatter *)decimalFormatter {
+    NSNumberFormatter *quantityFormatter = [[NSNumberFormatter alloc] init];
+    [quantityFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    [quantityFormatter setCurrencySymbol:@""];
+    [quantityFormatter setMinimumFractionDigits:0];
+    [quantityFormatter setMaximumFractionDigits:5];
+    
+    return quantityFormatter;
+}
 @end
