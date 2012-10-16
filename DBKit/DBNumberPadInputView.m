@@ -76,7 +76,6 @@
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"DBKitResources" ofType:@"bundle"];
     NSBundle *resourcesBundle = [NSBundle bundleWithPath:bundlePath];
     return [DBNumberPadInputView viewFromNibInBundle:resourcesBundle];
-//    return [DBNumberPadInputView viewFromNib];
 }
 
 + (id)sharedNumberPadInputView {

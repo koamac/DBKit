@@ -30,7 +30,7 @@
 
 #pragma mark - Nib Loading
 + (id)viewFromNib {
-    return [self viewFromNibInBundle:[NSBundle mainBundle]];
+    return [self viewFromNibInBundle:nil];
 }
 
 + (id)viewFromNibInBundle:(NSBundle *)bundle {
