@@ -28,6 +28,6 @@
 }
 
 - (id)initInContext:(NSManagedObjectContext *)context {
-    return [self initWithEntity:[[self class] entityDescription] insertIntoManagedObjectContext:context];
+    return [self initWithEntity:[[self class] entityDescriptionInContext:context] insertIntoManagedObjectContext:context];
 }
 @end
