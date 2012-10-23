@@ -115,8 +115,7 @@ static NSManagedObjectModel *_managedObjectModel;
                                          URL:storeURL
                                      options:options
                                        error:&error]) {
-            NSDictionary *userInfo = [NSDictionary dictionaryWithObject:error
-                                                                 forKey:NSUnderlyingErrorKey];
+            NSDictionary *userInfo = @{ NSUnderlyingErrorKey : error };
             NSException *exc = nil;
             NSString *reason = @"Could not create persistent store.";
             exc = [NSException exceptionWithName:NSInternalInconsistencyException
