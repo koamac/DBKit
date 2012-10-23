@@ -27,7 +27,7 @@
 
 @implementation UITableView (DBKit)
 - (NSIndexPath *)indexPathForCellContainingView:(UIView *)view {
-    CGPoint correctedOrigin = [view convertPoint:view.frame.origin toView:self];
-    return [self indexPathForRowAtPoint:correctedOrigin];
+    CGPoint convertedOrigin = [view convertPoint:view.bounds.origin toView:self];
+    return [self indexPathForRowAtPoint:convertedOrigin];
 }
 @end
