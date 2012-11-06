@@ -1,9 +1,9 @@
 //
-//  DBCoreData.h
-//  DBCoreData
+//  DBFetchedTableViewController.h
+//  Define
 //
-//  Created by David Barry on 9/6/12.
-//  Copyright (c) 2012 David Barry. All rights reserved.
+//  Created by David Barry on 11/3/12.
+//  Copyright (c) 2012 Soft Diesel. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,21 +23,23 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import "DBManagedObject.h"
-#import "DBFetchedTableViewController.h"
 
-@interface DBCoreData : NSObject
-+ (void)standUp; //Prepare the core data stack
-+ (void)tearDown;
+@interface DBFetchedTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (assign, nonatomic) BOOL clearsSelectionOnViewWillAppear;
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 
-+ (NSManagedObjectContext *)masterContext;
-+ (NSManagedObjectContext *)mainContext;
+- (NSFetchRequest *)fetchRequest;
+- (NSPredicate *)predicate;
+- (NSEntityDescription *)entityDescription;
+- (NSArray *)sortDescriptors;
+- (NSString *)sectionNameKeyPath;
+- (NSString *)cacheName;
+- (NSManagedObjectContext *)managedObjectContext;
 
-+ (void)saveToDisk; //Save to disk happens in background
-+ (void)saveMainContext;
-+ (void)saveMainContextToDisk;
-+ (void)saveContext:(NSManagedObjectContext *)context;
-
+- (id)initWithStyle:(UITableViewStyle)style;
+- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexpath;
+- (NSString *)cellReuseID;
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB041FDF1648CF6A0000429E /* DBFetchedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB041FDD1648CF6A0000429E /* DBFetchedTableViewController.h */; };
+		FB041FE01648CF6A0000429E /* DBFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB041FDE1648CF6A0000429E /* DBFetchedTableViewController.m */; };
 		FB14C473154F2090009F24BD /* NSTimer+DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14C471154F2090009F24BD /* NSTimer+DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB2642EA151C3FEF0083AFA4 /* DBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCDE2C3151BD9AC00AA67E3 /* DBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB26441E151C59530083AFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB26441D151C59530083AFA4 /* QuartzCore.framework */; };
@@ -54,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB041FDD1648CF6A0000429E /* DBFetchedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFetchedTableViewController.h; sourceTree = "<group>"; };
+		FB041FDE1648CF6A0000429E /* DBFetchedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFetchedTableViewController.m; sourceTree = "<group>"; };
 		FB14C471154F2090009F24BD /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
 		FB26441D151C59530083AFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB264428151C5E2C0083AFA4 /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
@@ -276,6 +280,8 @@
 				FBFCA6EF15F9B43700393CED /* DBCoreData.m */,
 				FB4E96F9160051C1000603F0 /* DBManagedObject.h */,
 				FB4E96FA160051C1000603F0 /* DBManagedObject.m */,
+				FB041FDD1648CF6A0000429E /* DBFetchedTableViewController.h */,
+				FB041FDE1648CF6A0000429E /* DBFetchedTableViewController.m */,
 				FBFCA6EB15F9B43700393CED /* Supporting Files */,
 			);
 			path = DBCoreData;
@@ -298,6 +304,7 @@
 			files = (
 				FB4E970616005C43000603F0 /* DBManagedObject.h in Headers */,
 				FBFCA6EE15F9B43700393CED /* DBCoreData.h in Headers */,
+				FB041FDF1648CF6A0000429E /* DBFetchedTableViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +464,7 @@
 			files = (
 				FBFCA6F015F9B43700393CED /* DBCoreData.m in Sources */,
 				FB4E96FB160051C1000603F0 /* DBManagedObject.m in Sources */,
+				FB041FE01648CF6A0000429E /* DBFetchedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
