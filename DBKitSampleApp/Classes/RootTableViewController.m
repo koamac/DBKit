@@ -9,7 +9,7 @@
 #import "RootTableViewController.h"
 #import "TimestampListViewController.h"
 #import "NumericInputViewController.h"
-
+#import "DBNumberSwipeViewController.h"
 typedef enum {
     RootItemDBCoreData = 0,
     RootItemDBNumberSwipeControl,
@@ -68,6 +68,7 @@ static NSString * const kCellIdentifier = @"Cell";
             viewController = [[TimestampListViewController alloc] initWithStyle:UITableViewStylePlain];
             break;
         case RootItemDBNumberSwipeControl:
+            viewController = [DBNumberSwipeViewController new];
             break;
         case RootItemNumericInput:
             viewController = [NumericInputViewController new];

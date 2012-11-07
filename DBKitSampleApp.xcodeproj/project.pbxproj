@@ -46,6 +46,9 @@
 		FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */; };
 		FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */; };
 		FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */; };
+		FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */; };
+		FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */; };
+		FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +117,11 @@
 		FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericInputViewController.h; sourceTree = "<group>"; };
 		FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericInputViewController.m; sourceTree = "<group>"; };
 		FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericInputViewController.xib; sourceTree = "<group>"; };
+		FBC7EB7D164A2CF0009E12DE /* DBNumberSwipeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberSwipeControl.h; sourceTree = "<group>"; };
+		FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberSwipeControl.m; sourceTree = "<group>"; };
+		FBC7EB80164A3AEE009E12DE /* DBNumberSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberSwipeViewController.h; sourceTree = "<group>"; };
+		FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberSwipeViewController.m; sourceTree = "<group>"; };
+		FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberSwipeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +264,8 @@
 				FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */,
 				FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */,
 				FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */,
+				FBC7EB7D164A2CF0009E12DE /* DBNumberSwipeControl.h */,
+				FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */,
 				FBC7EB38164A0F72009E12DE /* DBPercentDecimalTextField.h */,
 				FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */,
 				FBC7EB3A164A0F72009E12DE /* DBTextField.h */,
@@ -321,6 +331,9 @@
 				FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */,
 				FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */,
 				FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */,
+				FBC7EB80164A3AEE009E12DE /* DBNumberSwipeViewController.h */,
+				FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */,
+				FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -389,6 +402,7 @@
 				FBC7EB6B164A0F72009E12DE /* plainButton.png in Resources */,
 				FBC7EB6C164A0F72009E12DE /* plainButton@2x.png in Resources */,
 				FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */,
+				FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +435,8 @@
 				FBC7EB74164A1541009E12DE /* RootTableViewController.m in Sources */,
 				FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */,
 				FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */,
+				FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */,
+				FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
