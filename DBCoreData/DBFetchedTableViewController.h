@@ -40,6 +40,6 @@
 - (NSManagedObjectContext *)managedObjectContext;
 
 - (id)initWithStyle:(UITableViewStyle)style;
-- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexpath;
+- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
 - (NSString *)cellReuseID;
 @end

@@ -123,7 +123,7 @@
     return [DBCoreData mainContext];
 }
 
-- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexpath {
+- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     //Subclass should override
 }
 

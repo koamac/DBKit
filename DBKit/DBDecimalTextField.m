@@ -113,7 +113,7 @@ const int kDefaultMaximumNumberOfDecimalDigits = 0;
 #pragma mark Accessors
 - (DBNumberPadInputView *)numberPad {
     if (!_numberPad) 
-        _numberPad = [DBNumberPadInputView sharedNumberPadInputView];
+        self.numberPad = [DBNumberPadInputView sharedNumberPadInputView];
     
     return  _numberPad;
 }

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC7EAE5164A0B94009E12DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE4164A0B94009E12DE /* UIKit.framework */; };
+		FBC7EAE7164A0B94009E12DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE6164A0B94009E12DE /* Foundation.framework */; };
+		FBC7EAE9164A0B94009E12DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE8164A0B94009E12DE /* CoreGraphics.framework */; };
+		FBC7EAEB164A0B94009E12DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAEA164A0B94009E12DE /* CoreData.framework */; };
+		FBC7EB14164A0DED009E12DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB13164A0DED009E12DE /* AppDelegate.m */; };
+		FBC7EB17164A0E2E009E12DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB16164A0E2E009E12DE /* main.m */; };
+		FBC7EB22164A0E43009E12DE /* DBKitSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB19164A0E43009E12DE /* DBKitSampleApp.xcdatamodeld */; };
+		FBC7EB23164A0E43009E12DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB1D164A0E43009E12DE /* Default-568h@2x.png */; };
+		FBC7EB24164A0E43009E12DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB1E164A0E43009E12DE /* Default.png */; };
+		FBC7EB25164A0E43009E12DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB1F164A0E43009E12DE /* Default@2x.png */; };
+		FBC7EB55164A0F72009E12DE /* DBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB29164A0F72009E12DE /* DBCoreData.m */; };
+		FBC7EB56164A0F72009E12DE /* DBFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB2B164A0F72009E12DE /* DBFetchedTableViewController.m */; };
+		FBC7EB57164A0F72009E12DE /* DBManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB2D164A0F72009E12DE /* DBManagedObject.m */; };
+		FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */; };
+		FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */; };
+		FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */; };
+		FBC7EB5B164A0F72009E12DE /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */; };
+		FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3B164A0F72009E12DE /* DBTextField.m */; };
+		FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */; };
+		FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */; };
+		FBC7EB5F164A0F72009E12DE /* NSTimer+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB41164A0F72009E12DE /* NSTimer+DBKit.m */; };
+		FBC7EB60164A0F72009E12DE /* NSURL+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB43164A0F72009E12DE /* NSURL+DBKit.m */; };
+		FBC7EB61164A0F72009E12DE /* UIFont+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB45164A0F72009E12DE /* UIFont+DBKit.m */; };
+		FBC7EB62164A0F72009E12DE /* UITableView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */; };
+		FBC7EB63164A0F72009E12DE /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */; };
+		FBC7EB64164A0F72009E12DE /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4C164A0F72009E12DE /* backspaceButton.png */; };
+		FBC7EB65164A0F72009E12DE /* backspaceButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */; };
+		FBC7EB66164A0F72009E12DE /* backspaceButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */; };
+		FBC7EB67164A0F72009E12DE /* backspaceButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */; };
+		FBC7EB68164A0F72009E12DE /* DBNumberPadInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */; };
+		FBC7EB69164A0F72009E12DE /* numberPadBackdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */; };
+		FBC7EB6A164A0F72009E12DE /* numberPadBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */; };
+		FBC7EB6B164A0F72009E12DE /* plainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB53164A0F72009E12DE /* plainButton.png */; };
+		FBC7EB6C164A0F72009E12DE /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB54164A0F72009E12DE /* plainButton@2x.png */; };
+		FBC7EB71164A14BE009E12DE /* Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB70164A14BE009E12DE /* Timestamp.m */; };
+		FBC7EB74164A1541009E12DE /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB73164A1541009E12DE /* RootTableViewController.m */; };
+		FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */; };
+		FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */; };
+		FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBC7EAE0164A0B94009E12DE /* DBKitSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBKitSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC7EAE4164A0B94009E12DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBC7EAE6164A0B94009E12DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBC7EAE8164A0B94009E12DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBC7EAEA164A0B94009E12DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBC7EB12164A0DED009E12DE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBC7EB13164A0DED009E12DE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBC7EB15164A0E2E009E12DE /* DBKitSampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBKitSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		FBC7EB16164A0E2E009E12DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC7EB18164A0E43009E12DE /* DBKitSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DBKitSampleApp-Info.plist"; sourceTree = "<group>"; };
+		FBC7EB1A164A0E43009E12DE /* DBKitSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBKitSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		FBC7EB1D164A0E43009E12DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBC7EB1E164A0E43009E12DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBC7EB1F164A0E43009E12DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBC7EB28164A0F72009E12DE /* DBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCoreData.h; sourceTree = "<group>"; };
+		FBC7EB29164A0F72009E12DE /* DBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCoreData.m; sourceTree = "<group>"; };
+		FBC7EB2A164A0F72009E12DE /* DBFetchedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFetchedTableViewController.h; sourceTree = "<group>"; };
+		FBC7EB2B164A0F72009E12DE /* DBFetchedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFetchedTableViewController.m; sourceTree = "<group>"; };
+		FBC7EB2C164A0F72009E12DE /* DBManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagedObject.h; sourceTree = "<group>"; };
+		FBC7EB2D164A0F72009E12DE /* DBManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagedObject.m; sourceTree = "<group>"; };
+		FBC7EB2F164A0F72009E12DE /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
+		FBC7EB30164A0F72009E12DE /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
+		FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDecimalTextField.m; sourceTree = "<group>"; };
+		FBC7EB32164A0F72009E12DE /* DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBKit.h; sourceTree = "<group>"; };
+		FBC7EB33164A0F72009E12DE /* DBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMacros.h; sourceTree = "<group>"; };
+		FBC7EB34164A0F72009E12DE /* DBMonetaryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMonetaryTextField.h; sourceTree = "<group>"; };
+		FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMonetaryTextField.m; sourceTree = "<group>"; };
+		FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberPadInputView.h; sourceTree = "<group>"; };
+		FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
+		FBC7EB38164A0F72009E12DE /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
+		FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
+		FBC7EB3A164A0F72009E12DE /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
+		FBC7EB3B164A0F72009E12DE /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
+		FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB3E164A0F72009E12DE /* NSString+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB40164A0F72009E12DE /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB41164A0F72009E12DE /* NSTimer+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB42164A0F72009E12DE /* NSURL+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB43164A0F72009E12DE /* NSURL+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB44164A0F72009E12DE /* UIFont+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB45164A0F72009E12DE /* UIFont+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB46164A0F72009E12DE /* UITableView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB48164A0F72009E12DE /* UIView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKit.h"; sourceTree = "<group>"; };
+		FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKit.m"; sourceTree = "<group>"; };
+		FBC7EB4C164A0F72009E12DE /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButton.png; sourceTree = "<group>"; };
+		FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButton@2x.png"; sourceTree = "<group>"; };
+		FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButtonSelected.png; sourceTree = "<group>"; };
+		FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButtonSelected@2x.png"; sourceTree = "<group>"; };
+		FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberPadInputView.xib; sourceTree = "<group>"; };
+		FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberPadBackdrop.png; sourceTree = "<group>"; };
+		FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numberPadBackdrop@2x.png"; sourceTree = "<group>"; };
+		FBC7EB53164A0F72009E12DE /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plainButton.png; sourceTree = "<group>"; };
+		FBC7EB54164A0F72009E12DE /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plainButton@2x.png"; sourceTree = "<group>"; };
+		FBC7EB6F164A14BE009E12DE /* Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.h; sourceTree = "<group>"; };
+		FBC7EB70164A14BE009E12DE /* Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.m; sourceTree = "<group>"; };
+		FBC7EB72164A1541009E12DE /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		FBC7EB73164A1541009E12DE /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		FBC7EB75164A1E3B009E12DE /* TimestampListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimestampListViewController.h; sourceTree = "<group>"; };
+		FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimestampListViewController.m; sourceTree = "<group>"; };
+		FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericInputViewController.h; sourceTree = "<group>"; };
+		FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericInputViewController.m; sourceTree = "<group>"; };
+		FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericInputViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC7EADD164A0B94009E12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC7EAE5164A0B94009E12DE /* UIKit.framework in Frameworks */,
+				FBC7EAE7164A0B94009E12DE /* Foundation.framework in Frameworks */,
+				FBC7EAE9164A0B94009E12DE /* CoreGraphics.framework in Frameworks */,
+				FBC7EAEB164A0B94009E12DE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC7EAD5164A0B94009E12DE = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB26164A0EF0009E12DE /* DBKit */,
+				FBC7EB0F164A0D89009E12DE /* Classes */,
+				FBC7EB10164A0D8E009E12DE /* Other Sources */,
+				FBC7EB11164A0D98009E12DE /* Resources */,
+				FBC7EAE3164A0B94009E12DE /* Frameworks */,
+				FBC7EAE1164A0B94009E12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC7EAE1164A0B94009E12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EAE0164A0B94009E12DE /* DBKitSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC7EAE3164A0B94009E12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EAE4164A0B94009E12DE /* UIKit.framework */,
+				FBC7EAE6164A0B94009E12DE /* Foundation.framework */,
+				FBC7EAE8164A0B94009E12DE /* CoreGraphics.framework */,
+				FBC7EAEA164A0B94009E12DE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC7EB0F164A0D89009E12DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB6E164A143D009E12DE /* View Controllers */,
+				FBC7EB6D164A13F1009E12DE /* Model */,
+				FBC7EB12164A0DED009E12DE /* AppDelegate.h */,
+				FBC7EB13164A0DED009E12DE /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = DBKitSampleApp/Classes;
+			sourceTree = "<group>";
+		};
+		FBC7EB10164A0D8E009E12DE /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB15164A0E2E009E12DE /* DBKitSampleApp-Prefix.pch */,
+				FBC7EB16164A0E2E009E12DE /* main.m */,
+			);
+			name = "Other Sources";
+			path = "DBKitSampleApp/Other Sources";
+			sourceTree = "<group>";
+		};
+		FBC7EB11164A0D98009E12DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB18164A0E43009E12DE /* DBKitSampleApp-Info.plist */,
+				FBC7EB19164A0E43009E12DE /* DBKitSampleApp.xcdatamodeld */,
+				FBC7EB1B164A0E43009E12DE /* Images */,
+			);
+			name = Resources;
+			path = DBKitSampleApp/Resources;
+			sourceTree = "<group>";
+		};
+		FBC7EB1B164A0E43009E12DE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB1C164A0E43009E12DE /* Default */,
+				FBC7EB20164A0E43009E12DE /* Icon */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FBC7EB1C164A0E43009E12DE /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB1D164A0E43009E12DE /* Default-568h@2x.png */,
+				FBC7EB1E164A0E43009E12DE /* Default.png */,
+				FBC7EB1F164A0E43009E12DE /* Default@2x.png */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		FBC7EB20164A0E43009E12DE /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		FBC7EB26164A0EF0009E12DE /* DBKit */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB27164A0F72009E12DE /* DBCoreData */,
+				FBC7EB2E164A0F72009E12DE /* DBKit */,
+				FBC7EB4A164A0F72009E12DE /* DBKitResources */,
+			);
+			name = DBKit;
+			sourceTree = "<group>";
+		};
+		FBC7EB27164A0F72009E12DE /* DBCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB28164A0F72009E12DE /* DBCoreData.h */,
+				FBC7EB29164A0F72009E12DE /* DBCoreData.m */,
+				FBC7EB2A164A0F72009E12DE /* DBFetchedTableViewController.h */,
+				FBC7EB2B164A0F72009E12DE /* DBFetchedTableViewController.m */,
+				FBC7EB2C164A0F72009E12DE /* DBManagedObject.h */,
+				FBC7EB2D164A0F72009E12DE /* DBManagedObject.m */,
+			);
+			path = DBCoreData;
+			sourceTree = "<group>";
+		};
+		FBC7EB2E164A0F72009E12DE /* DBKit */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB2F164A0F72009E12DE /* DBCategories.h */,
+				FBC7EB30164A0F72009E12DE /* DBDecimalTextField.h */,
+				FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */,
+				FBC7EB32164A0F72009E12DE /* DBKit.h */,
+				FBC7EB33164A0F72009E12DE /* DBMacros.h */,
+				FBC7EB34164A0F72009E12DE /* DBMonetaryTextField.h */,
+				FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */,
+				FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */,
+				FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */,
+				FBC7EB38164A0F72009E12DE /* DBPercentDecimalTextField.h */,
+				FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */,
+				FBC7EB3A164A0F72009E12DE /* DBTextField.h */,
+				FBC7EB3B164A0F72009E12DE /* DBTextField.m */,
+				FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */,
+				FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */,
+				FBC7EB3E164A0F72009E12DE /* NSString+DBKit.h */,
+				FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */,
+				FBC7EB40164A0F72009E12DE /* NSTimer+DBKit.h */,
+				FBC7EB41164A0F72009E12DE /* NSTimer+DBKit.m */,
+				FBC7EB42164A0F72009E12DE /* NSURL+DBKit.h */,
+				FBC7EB43164A0F72009E12DE /* NSURL+DBKit.m */,
+				FBC7EB44164A0F72009E12DE /* UIFont+DBKit.h */,
+				FBC7EB45164A0F72009E12DE /* UIFont+DBKit.m */,
+				FBC7EB46164A0F72009E12DE /* UITableView+DBKit.h */,
+				FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */,
+				FBC7EB48164A0F72009E12DE /* UIView+DBKit.h */,
+				FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */,
+			);
+			path = DBKit;
+			sourceTree = "<group>";
+		};
+		FBC7EB4A164A0F72009E12DE /* DBKitResources */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB4B164A0F72009E12DE /* NumPad */,
+			);
+			path = DBKitResources;
+			sourceTree = "<group>";
+		};
+		FBC7EB4B164A0F72009E12DE /* NumPad */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB4C164A0F72009E12DE /* backspaceButton.png */,
+				FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */,
+				FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */,
+				FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */,
+				FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */,
+				FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */,
+				FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */,
+				FBC7EB53164A0F72009E12DE /* plainButton.png */,
+				FBC7EB54164A0F72009E12DE /* plainButton@2x.png */,
+			);
+			path = NumPad;
+			sourceTree = "<group>";
+		};
+		FBC7EB6D164A13F1009E12DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB6F164A14BE009E12DE /* Timestamp.h */,
+				FBC7EB70164A14BE009E12DE /* Timestamp.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FBC7EB6E164A143D009E12DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB72164A1541009E12DE /* RootTableViewController.h */,
+				FBC7EB73164A1541009E12DE /* RootTableViewController.m */,
+				FBC7EB75164A1E3B009E12DE /* TimestampListViewController.h */,
+				FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */,
+				FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */,
+				FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */,
+				FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC7EADF164A0B94009E12DE /* DBKitSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC7EB03164A0B94009E12DE /* Build configuration list for PBXNativeTarget "DBKitSampleApp" */;
+			buildPhases = (
+				FBC7EADC164A0B94009E12DE /* Sources */,
+				FBC7EADD164A0B94009E12DE /* Frameworks */,
+				FBC7EADE164A0B94009E12DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBKitSampleApp;
+			productName = DBKitSampleApp;
+			productReference = FBC7EAE0164A0B94009E12DE /* DBKitSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC7EAD7164A0B94009E12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "David Barry";
+			};
+			buildConfigurationList = FBC7EADA164A0B94009E12DE /* Build configuration list for PBXProject "DBKitSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBC7EAD5164A0B94009E12DE;
+			productRefGroup = FBC7EAE1164A0B94009E12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC7EADF164A0B94009E12DE /* DBKitSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC7EADE164A0B94009E12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC7EB23164A0E43009E12DE /* Default-568h@2x.png in Resources */,
+				FBC7EB24164A0E43009E12DE /* Default.png in Resources */,
+				FBC7EB25164A0E43009E12DE /* Default@2x.png in Resources */,
+				FBC7EB64164A0F72009E12DE /* backspaceButton.png in Resources */,
+				FBC7EB65164A0F72009E12DE /* backspaceButton@2x.png in Resources */,
+				FBC7EB66164A0F72009E12DE /* backspaceButtonSelected.png in Resources */,
+				FBC7EB67164A0F72009E12DE /* backspaceButtonSelected@2x.png in Resources */,
+				FBC7EB68164A0F72009E12DE /* DBNumberPadInputView.xib in Resources */,
+				FBC7EB69164A0F72009E12DE /* numberPadBackdrop.png in Resources */,
+				FBC7EB6A164A0F72009E12DE /* numberPadBackdrop@2x.png in Resources */,
+				FBC7EB6B164A0F72009E12DE /* plainButton.png in Resources */,
+				FBC7EB6C164A0F72009E12DE /* plainButton@2x.png in Resources */,
+				FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC7EADC164A0B94009E12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC7EB14164A0DED009E12DE /* AppDelegate.m in Sources */,
+				FBC7EB17164A0E2E009E12DE /* main.m in Sources */,
+				FBC7EB22164A0E43009E12DE /* DBKitSampleApp.xcdatamodeld in Sources */,
+				FBC7EB55164A0F72009E12DE /* DBCoreData.m in Sources */,
+				FBC7EB56164A0F72009E12DE /* DBFetchedTableViewController.m in Sources */,
+				FBC7EB57164A0F72009E12DE /* DBManagedObject.m in Sources */,
+				FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */,
+				FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */,
+				FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */,
+				FBC7EB5B164A0F72009E12DE /* DBPercentDecimalTextField.m in Sources */,
+				FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */,
+				FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */,
+				FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */,
+				FBC7EB5F164A0F72009E12DE /* NSTimer+DBKit.m in Sources */,
+				FBC7EB60164A0F72009E12DE /* NSURL+DBKit.m in Sources */,
+				FBC7EB61164A0F72009E12DE /* UIFont+DBKit.m in Sources */,
+				FBC7EB62164A0F72009E12DE /* UITableView+DBKit.m in Sources */,
+				FBC7EB63164A0F72009E12DE /* UIView+DBKit.m in Sources */,
+				FBC7EB71164A14BE009E12DE /* Timestamp.m in Sources */,
+				FBC7EB74164A1541009E12DE /* RootTableViewController.m in Sources */,
+				FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */,
+				FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBC7EB01164A0B94009E12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBC7EB02164A0B94009E12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC7EB04164A0B94009E12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBKitSampleApp/Other Sources/DBKitSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DBKitSampleApp/Resources/DBKitSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBC7EB05164A0B94009E12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBKitSampleApp/Other Sources/DBKitSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DBKitSampleApp/Resources/DBKitSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC7EADA164A0B94009E12DE /* Build configuration list for PBXProject "DBKitSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC7EB01164A0B94009E12DE /* Debug */,
+				FBC7EB02164A0B94009E12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC7EB03164A0B94009E12DE /* Build configuration list for PBXNativeTarget "DBKitSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC7EB04164A0B94009E12DE /* Debug */,
+				FBC7EB05164A0B94009E12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBC7EB19164A0E43009E12DE /* DBKitSampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBC7EB1A164A0E43009E12DE /* DBKitSampleApp.xcdatamodel */,
+			);
+			currentVersion = FBC7EB1A164A0E43009E12DE /* DBKitSampleApp.xcdatamodel */;
+			path = DBKitSampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBC7EAD7164A0B94009E12DE /* Project object */;
+}
