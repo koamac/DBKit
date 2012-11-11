@@ -59,8 +59,10 @@
 - (void)loadView {
     [super loadView];
     
-    self.tableView.frame = self.view.bounds;
-    [self.view addSubview:self.tableView];
+    if (!self.nibName) {
+        self.tableView.frame = self.view.bounds;
+        [self.view addSubview:self.tableView];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {

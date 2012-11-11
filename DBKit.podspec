@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "DBKit"
-  s.version      = "0.2"
+  s.version      = "0.2.1"
   s.summary      = "A collection of code I use across all of my apps."
   s.homepage     = "https://github.com/DavidBarry/DBKit"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "David Barry" => "david@softdiesel.com" }
-  s.source       = { :git => "https://github.com/DavidBarry/DBKit.git", :tag => "0.2"}
+  s.source       = { :git => "https://github.com/DavidBarry/DBKit.git", :tag => "0.2.1"}
   s.platform     = :ios, '5.0'
   s.source_files = '{DBKit,DBCoreData}/*.{h,m}'
   s.resources = "DBKitResources/**/*.{png,xib}"
