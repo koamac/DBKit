@@ -78,7 +78,9 @@ static NSManagedObjectModel *_managedObjectModel;
 }
 
 + (void)saveMainContext {
-    [self saveContext:[self mainContext]];
+    [[self mainContext] performBlockAndWait:^{
+        [self saveContext:[self mainContext]];
+    }];
 }
 
 + (void)saveMainContextToDisk {
