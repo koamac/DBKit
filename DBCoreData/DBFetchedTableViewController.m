@@ -96,6 +96,7 @@
     NSFetchRequest *fetchRequest = [NSFetchRequest new];
     fetchRequest.entity = [self entityDescription];
     fetchRequest.sortDescriptors = [self sortDescriptors];
+    fetchRequest.predicate = [self predicate];
     fetchRequest.returnsObjectsAsFaults = NO;
     
     return fetchRequest;
