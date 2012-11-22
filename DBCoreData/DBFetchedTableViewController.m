@@ -56,10 +56,8 @@
 
 #pragma mark - UIViewController
 
-- (void)loadView {
-    [super loadView];
-    
-    if (!self.nibName) {
+- (void)viewDidLoad {
+    if (self.tableView.superview == nil) {
         self.tableView.frame = self.view.bounds;
         [self.view addSubview:self.tableView];
     }
