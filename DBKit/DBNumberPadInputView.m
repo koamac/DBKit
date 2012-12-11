@@ -72,13 +72,13 @@
 
 #pragma mark -
 #pragma mark Initializers
-+ (id)numberPadInputView {
++ (DBNumberPadInputView *)numberPadInputView {
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"DBKitResources" ofType:@"bundle"];
     NSBundle *resourcesBundle = [NSBundle bundleWithPath:bundlePath];
     return [DBNumberPadInputView viewFromNibInBundle:resourcesBundle];
 }
 
-+ (id)sharedNumberPadInputView {
++ (DBNumberPadInputView *)sharedNumberPadInputView {
     static dispatch_once_t onceToken;
     static DBNumberPadInputView *numberPadInputView = nil;
     
