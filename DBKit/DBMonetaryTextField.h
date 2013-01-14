@@ -32,5 +32,5 @@
 @property (nonatomic, strong) NSDecimalNumber *decimalValue;
 @property (nonatomic, strong) NSDecimalNumber *maximumValue;
 @property (nonatomic, strong) NSNumberFormatter *priceFormatter;
-@property (nonatomic) int maximumNumberOfDigits;
+@property (nonatomic) NSUInteger maximumNumberOfDigits;
 @end

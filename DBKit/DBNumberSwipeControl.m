@@ -205,7 +205,7 @@ typedef enum {
     _value = value;
     
     
-    DBSwipeAnimationDirection direction;
+    DBSwipeAnimationDirection direction = DBSwipeAnimationDirectionNone;
     //This makes comparisons to determine the direction of the stroke change easier.
     if (oldValue == NSNotFound)
         oldValue = self.defaultValue;

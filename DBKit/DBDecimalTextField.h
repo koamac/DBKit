@@ -36,5 +36,5 @@
 //This value will be used when no other value has been set. The default for this is zero
 @property (nonatomic, strong) NSDecimalNumber *defaultValue;
 @property (nonatomic, strong) NSDecimalNumber *maximumValue;
-@property (nonatomic) int maximumNumberOfDigits;
+@property (nonatomic) NSUInteger maximumNumberOfDigits;
 @end
