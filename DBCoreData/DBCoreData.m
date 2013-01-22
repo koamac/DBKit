@@ -36,7 +36,7 @@ static NSManagedObjectModel *_managedObjectModel;
 + (NSString *)modelName;
 + (NSURL*)modelURL;
 + (NSString *)persistentStoreFileName;
-+ (NSURL *)persistenStoreURL;
++ (NSURL *)persistentStoreURL;
 @end
 
 @implementation DBCoreData
@@ -107,7 +107,7 @@ static NSManagedObjectModel *_managedObjectModel;
 
 + (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
     if (_persistentStoreCoordinator == nil) {
-        NSURL *storeURL = [self persistenStoreURL];
+        NSURL *storeURL = [self persistentStoreURL];
         NSPersistentStoreCoordinator *psc = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
         NSDictionary *options = @{ NSMigratePersistentStoresAutomaticallyOption : @(YES), NSInferMappingModelAutomaticallyOption : @(YES) };
 
@@ -148,7 +148,7 @@ static NSManagedObjectModel *_managedObjectModel;
     return [[self modelName] stringByAppendingPathExtension:@"sqlite"];
 }
 
-+ (NSURL *)persistenStoreURL {
++ (NSURL *)persistentStoreURL {
     NSString *persistentStoreName = [self persistentStoreFileName];
     NSURL *documentsURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
     return [documentsURL URLByAppendingPathComponent:persistentStoreName];

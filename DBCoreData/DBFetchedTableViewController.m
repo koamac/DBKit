@@ -27,7 +27,7 @@
 #import "DBCoreData.h"
 
 @interface DBFetchedTableViewController ()
-
+@property (assign, nonatomic) UITableViewStyle tableViewStyle;
 @end
 
 @implementation DBFetchedTableViewController
@@ -35,33 +35,27 @@
 #pragma mark - Initializers
 
 - (id)initWithStyle:(UITableViewStyle)style {
-    if (self = [super init]) {
-        self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:style];
-        self.tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-        self.tableView.delegate = self;
-        self.tableView.dataSource = self;
-        self.clearsSelectionOnViewWillAppear = YES;
+    if (self = [self initWithNibName:nil bundle:nil]) {
+        self.tableViewStyle = style;
     }
     
     return self;
 }
 
 - (id)init {
-    if (self = [super initWithNibName:nil bundle:nil]) {
+    return [self initWithNibName:nil bundle:nil];
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         self.clearsSelectionOnViewWillAppear = YES;
+        self.tableViewStyle = UITableViewStylePlain;
     }
     
     return self;
 }
 
 #pragma mark - UIViewController
-
-- (void)viewDidLoad {
-    if (self.tableView.superview == nil) {
-        self.tableView.frame = self.view.bounds;
-        [self.view addSubview:self.tableView];
-    }
-}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -105,11 +99,11 @@
 }
 
 - (NSEntityDescription *)entityDescription {
-    return nil; //Subclasses must override this
+    THROW_ABSTRACT_METHOD_EXCEPTION();
 }
 
 - (NSArray *)sortDescriptors {
-    return nil; //Subclasses must override this
+    THROW_ABSTRACT_METHOD_EXCEPTION();
 }
 
 - (NSString *)sectionNameKeyPath {
@@ -133,6 +127,20 @@
     if (!reuseID) reuseID = [NSString stringWithFormat:@"%@Cell", NSStringFromClass([self class])];
     
     return reuseID;
+}
+
+- (UITableView *)tableView {
+    if (_tableView == nil) {
+        self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:self.tableViewStyle];
+        self.tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+        self.tableView.delegate = self;
+        self.tableView.dataSource = self;
+        
+        self.tableView.frame = self.view.bounds;
+        [self.view addSubview:self.tableView];
+    }
+    
+    return _tableView;
 }
 
 #pragma mark - TableView Data Source
