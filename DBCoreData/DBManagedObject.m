@@ -23,11 +23,11 @@
     return [NSEntityDescription entityForName:[self entityName] inManagedObjectContext:context];
 }
 
-- (instancetype)init {
+- (id)init {
     return [self initInContext:[DBCoreData mainContext]];
 }
 
-- (instancetype)initInContext:(NSManagedObjectContext *)context {
+- (id)initInContext:(NSManagedObjectContext *)context {
     return [self initWithEntity:[[self class] entityDescriptionInContext:context] insertIntoManagedObjectContext:context];
 }
 @end

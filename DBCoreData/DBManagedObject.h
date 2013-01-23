@@ -13,6 +13,6 @@
 + (NSEntityDescription *)entityDescription;
 + (NSEntityDescription *)entityDescriptionInContext:(NSManagedObjectContext *)context;
 
-- (instancetype)init;
-- (instancetype)initInContext:(NSManagedObjectContext *)context;
+- (id)init;
+- (id)initInContext:(NSManagedObjectContext *)context;
 @end
