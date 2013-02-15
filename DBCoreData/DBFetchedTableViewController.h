@@ -34,6 +34,7 @@
 //Required
 - (NSEntityDescription *)entityDescription;
 - (NSArray *)sortDescriptors;
+- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
 
 //Optional
 - (NSFetchRequest *)fetchRequest;
@@ -46,6 +47,5 @@
 - (UITableViewRowAnimation)rowAnimationForRowChangeType:(NSFetchedResultsChangeType)changeType atIndexPath:(NSIndexPath *)indexPath newIndexPath:(NSIndexPath *)newIndexPath;
 
 - (id)initWithStyle:(UITableViewStyle)style;
-- (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
 - (NSString *)cellReuseID;
 @end

@@ -127,7 +127,7 @@
 }
 
 - (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    //Subclass should override
+    THROW_ABSTRACT_METHOD_EXCEPTION();
 }
 
 - (NSString *)cellReuseID {
