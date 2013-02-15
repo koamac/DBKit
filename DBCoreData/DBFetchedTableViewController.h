@@ -28,16 +28,22 @@
 
 @interface DBFetchedTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property (assign, nonatomic) BOOL clearsSelectionOnViewWillAppear;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (assign, nonatomic) BOOL clearsSelectionOnViewWillAppear;
 
-- (NSFetchRequest *)fetchRequest;
-- (NSPredicate *)predicate;
+//Required
 - (NSEntityDescription *)entityDescription;
 - (NSArray *)sortDescriptors;
+
+//Optional
+- (NSFetchRequest *)fetchRequest;
+- (NSPredicate *)predicate;
 - (NSString *)sectionNameKeyPath;
 - (NSString *)cacheName;
 - (NSManagedObjectContext *)managedObjectContext;
+
+- (UITableViewRowAnimation)rowAnimationForSectionChangeType:(NSFetchedResultsChangeType)changeType atIndex:(NSUInteger)sectionIndex;
+- (UITableViewRowAnimation)rowAnimationForRowChangeType:(NSFetchedResultsChangeType)changeType atIndexPath:(NSIndexPath *)indexPath newIndexPath:(NSIndexPath *)newIndexPath;
 
 - (id)initWithStyle:(UITableViewStyle)style;
 - (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath;

@@ -118,6 +118,14 @@
     return [DBCoreData mainContext];
 }
 
+- (UITableViewRowAnimation)rowAnimationForSectionChangeType:(NSFetchedResultsChangeType)changeType atIndex:(NSUInteger)sectionIndex {
+    return UITableViewRowAnimationAutomatic;
+}
+
+- (UITableViewRowAnimation)rowAnimationForRowChangeType:(NSFetchedResultsChangeType)changeType atIndexPath:(NSIndexPath *)indexPath newIndexPath:(NSIndexPath *)newIndexPath {
+    return UITableViewRowAnimationAutomatic;
+}
+
 - (void)configureCell:(id)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     //Subclass should override
 }
@@ -180,33 +188,35 @@
     [self.tableView beginUpdates];
 }
 
-- (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo
-           atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type {
+- (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type {
+    UITableViewRowAnimation rowAnimation = [self rowAnimationForSectionChangeType:type atIndex:sectionIndex];
+    
     switch(type) {
         case NSFetchedResultsChangeInsert:
+            
             [self.tableView insertSections:[NSIndexSet indexSetWithIndex:sectionIndex]
-                          withRowAnimation:UITableViewRowAnimationAutomatic];
+                          withRowAnimation:rowAnimation];
             break;
             
         case NSFetchedResultsChangeDelete:
             [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex]
-                          withRowAnimation:UITableViewRowAnimationAutomatic];
+                          withRowAnimation:rowAnimation];
             break;
     }
 }
 
 - (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type newIndexPath:(NSIndexPath *)newIndexPath {
-	
+	UITableViewRowAnimation rowAnimation = [self rowAnimationForRowChangeType:type atIndexPath:indexPath newIndexPath:newIndexPath];
     switch(type) {
         case NSFetchedResultsChangeInsert: {
             [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
-                                  withRowAnimation:UITableViewRowAnimationAutomatic];
+                                  withRowAnimation:rowAnimation];
             break;
 		}
 			
         case NSFetchedResultsChangeDelete: {
             [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
-                                  withRowAnimation:UITableViewRowAnimationAutomatic];
+                                  withRowAnimation:rowAnimation];
             break;
 		}
 			
@@ -216,10 +226,10 @@
 		}
 			
         case NSFetchedResultsChangeMove: {
-            [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
-                                  withRowAnimation:UITableViewRowAnimationAutomatic];
-            [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
-                                  withRowAnimation:UITableViewRowAnimationAutomatic];
+            [self.tableView deleteRowsAtIndexPaths:@[indexPath]
+                                  withRowAnimation:rowAnimation];
+            [self.tableView insertRowsAtIndexPaths:@[newIndexPath]
+                                  withRowAnimation:rowAnimation];
             break;
 		}
     }
