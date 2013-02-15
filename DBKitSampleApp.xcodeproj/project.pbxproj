@@ -232,6 +232,7 @@
 		FBC7EB26164A0EF0009E12DE /* DBKit */ = {
 			isa = PBXGroup;
 			children = (
+				FBD9C69316CE0F850003AA2B /* DBKitShared */,
 				FBC7EB27164A0F72009E12DE /* DBCoreData */,
 				FBC7EB2E164A0F72009E12DE /* DBKit */,
 				FBC7EB4A164A0F72009E12DE /* DBKitResources */,
@@ -259,7 +260,6 @@
 				FBC7EB30164A0F72009E12DE /* DBDecimalTextField.h */,
 				FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */,
 				FBC7EB32164A0F72009E12DE /* DBKit.h */,
-				FBC7EB33164A0F72009E12DE /* DBMacros.h */,
 				FBC7EB34164A0F72009E12DE /* DBMonetaryTextField.h */,
 				FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */,
 				FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */,
@@ -336,6 +336,14 @@
 				FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FBD9C69316CE0F850003AA2B /* DBKitShared */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7EB33164A0F72009E12DE /* DBMacros.h */,
+			);
+			path = DBKitShared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

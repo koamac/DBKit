@@ -25,6 +25,7 @@
 
 #import "DBFetchedTableViewController.h"
 #import "DBCoreData.h"
+#import "DBMacros.h"
 
 @interface DBFetchedTableViewController ()
 @property (assign, nonatomic) UITableViewStyle tableViewStyle;

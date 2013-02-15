@@ -1,15 +1,22 @@
-Pod::Spec.new do |s|
-  s.name         = "DBKit"
-  s.version      = "0.2.2"
-  s.summary      = "A collection of code I use across all of my apps."
-  s.homepage     = "https://github.com/DavidBarry/DBKit"
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "David Barry" => "david@softdiesel.com" }
-  s.source       = { :git => "https://github.com/DavidBarry/DBKit.git", :tag => "0.2.2"}
-  s.platform     = :ios, '5.0'
-  s.source_files = '{DBKit,DBCoreData}/*.{h,m}'
-  s.resources = "DBKitResources/**/*.{png,xib}"
-  s.frameworks = 'QuartzCore', 'CoreGraphics', 'CoreData'
-  s.prefix_header_contents = "#import \"DBMacros.h\""
-  s.requires_arc = true
+Pod::Spec.new do |spec|
+  spec.name         = "DBKit"
+  spec.version      = "0.3"
+  spec.summary      = "A collection of code I use across all of my apps."
+  spec.homepage     = "https://github.com/DavidBarry/DBKit"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author       = { "David Barry" => "david@softdiesel.com" }
+  spec.source       = { :git => "https://github.com/DavidBarry/DBKit.git", :tag => spec.version.to_s}
+  spec.source_files = 'DBKitShared/*.{h,m}'
+  spec.platform     = :ios, '6.0'
+  spec.requires_arc = true
+
+  spec.subspec 'DBKit' do |db_kit|
+    db_kit.source_files     = 'DBKit/*.{h,m}'
+    db_kit.resources        = 'DBKitResources/**/*.{png,xib}'
+    db_kit.frameworks       = 'QuartzCore', 'CoreGraphics'
+  end
+  spec.subspec 'DBCoreData' do |db_core_data|
+    db_core_data.source_files   = 'DBCoreData/*.{h,m}'
+    db_core_data.frameworks     = 'CoreData'
+  end
 end
