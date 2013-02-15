@@ -30,4 +30,8 @@
 - (id)initInContext:(NSManagedObjectContext *)context {
     return [self initWithEntity:[[self class] entityDescriptionInContext:context] insertIntoManagedObjectContext:context];
 }
+
++ (id)newInContext:(NSManagedObjectContext *)context {
+    return [[self alloc] initInContext:context];
+}
 @end

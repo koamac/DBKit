@@ -15,4 +15,5 @@
 
 - (id)init;
 - (id)initInContext:(NSManagedObjectContext *)context;
++ (id)newInContext:(NSManagedObjectContext *)context;
 @end
