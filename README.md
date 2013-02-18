@@ -4,7 +4,11 @@ DBKit is a collection of code that I find useful in many of the applications tha
 # Adding DBKit with Cocoapods #
 Simply add the following to your Podfile:
 
-  - `pod "DBKit", :git => "https://github.com/DavidBarry/DBKit.git"`
+  - `pod "DBKit"`
+
+Alternatively, if you only want DBKit without DBCoreData, or if you want just DBCoreData you can use the following subspecs:
+  - `pod "DBKit/DBKit"`
+  - `pod "DBKit/DBCoreData"`
 
 # Manually adding DBKit to your project  #
 ## Add DBKit to your project ##
