@@ -1,10 +1,27 @@
 //
 //  UIViewController+KeyboardHandling.m
-//  DBKitSampleApp
+//  DBKit
 //
 //  Created by David Barry on 3/9/13.
 //  Copyright (c) 2013 David Barry. All rights reserved.
 //
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to deal
+//  in the Software without restriction, including without limitation the rights
+//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//  copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in
+//  all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//  THE SOFTWARE.
 
 #import "UIViewController+KeyboardHandling.h"
 
@@ -27,12 +44,44 @@
 
 #pragma mark - Internal Notification Handling
 - (void)db_keyboardWillShow:(NSNotification *)notification {
-    if ([self respondsToSelector:@selector(keyboardWillShow:)]) {
-        DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo keyboardInfoWithNotificationDictionary:notification.userInfo forViewController:self];
-        [self keyboardWillShow:keyboardInfo];
-    }
-
+    DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo keyboardInfoWithNotificationDictionary:notification.userInfo forViewController:self];
     
+    if ([self respondsToSelector:@selector(keyboardWillShow:)]) [self keyboardWillShow:keyboardInfo];
+
+    if ([self respondsToSelector:@selector(scrollViewToAutomaticallyAdjust)]) {
+        UIScrollView *scrollView = [self scrollViewToAutomaticallyAdjust];
+        
+        UIEdgeInsets contentInset = scrollView.contentInset;
+        contentInset.bottom += keyboardInfo.size.height;
+        
+        UIEdgeInsets scrollIndicatorInset = scrollView.scrollIndicatorInsets;
+        scrollIndicatorInset.bottom += keyboardInfo.size.height;
+
+        UIView *firstResponder = nil;
+        CGPoint contentOffset = scrollView.contentOffset;
+        BOOL shouldScroll = NO;
+        
+        if ([self respondsToSelector:@selector(currentFirstResponder)]) {
+            firstResponder = [self currentFirstResponder];
+            CGRect firstResponderFrame = [firstResponder convertRect:firstResponder.bounds toView:scrollView];
+            CGFloat firstResponderMaxY = CGRectGetMaxY(firstResponderFrame);
+            
+            CGFloat viewPadding = 10.0f;
+            
+            if ((firstResponderMaxY + viewPadding) > keyboardInfo.endFrame.origin.y) {
+                shouldScroll = YES;
+                CGFloat distanceToScroll = (firstResponderMaxY + viewPadding) - keyboardInfo.endFrame.origin.y;
+                contentOffset.y += distanceToScroll;
+            }
+        }
+        
+        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationCurve animations:^{
+            scrollView.contentInset = contentInset;
+            scrollView.scrollIndicatorInsets = scrollIndicatorInset;
+            if (shouldScroll) scrollView.contentOffset = contentOffset;
+        } completion:nil];
+
+    }
 }
 
 - (void)db_keyboardDidShow:(NSNotification *)notification {
@@ -44,9 +93,23 @@
 }
 
 - (void)db_keyboardWillHide:(NSNotification *)notification {
-    if ([self respondsToSelector:@selector(keyboardWillHide:)]) {
-        DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo keyboardInfoWithNotificationDictionary:notification.userInfo forViewController:self];
-        [self keyboardWillHide:keyboardInfo];
+    DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo keyboardInfoWithNotificationDictionary:notification.userInfo forViewController:self];
+    
+    if ([self respondsToSelector:@selector(keyboardWillHide:)]) [self keyboardWillHide:keyboardInfo];
+    
+    if ([self respondsToSelector:@selector(scrollViewToAutomaticallyAdjust)]) {
+        UIScrollView *scrollView = [self scrollViewToAutomaticallyAdjust];
+        
+        UIEdgeInsets contentInset = scrollView.contentInset;
+        contentInset.bottom -= keyboardInfo.size.height;
+        
+        UIEdgeInsets scrollIndicatorInset = scrollView.scrollIndicatorInsets;
+        scrollIndicatorInset.bottom -= keyboardInfo.size.height;
+        
+        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationCurve animations:^{
+            scrollView.contentInset = contentInset;
+            scrollView.scrollIndicatorInsets = scrollIndicatorInset;
+        } completion:nil];
     }
 
 }
@@ -56,7 +119,6 @@
         DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo keyboardInfoWithNotificationDictionary:notification.userInfo forViewController:self];
         [self keyboardDidHide:keyboardInfo];
     }
-
 }
 
 @end
