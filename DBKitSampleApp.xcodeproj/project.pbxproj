@@ -27,7 +27,6 @@
 		FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */; };
 		FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */; };
 		FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */; };
-		FBC7EB5B164A0F72009E12DE /* DBPercentDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */; };
 		FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3B164A0F72009E12DE /* DBTextField.m */; };
 		FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */; };
 		FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */; };
@@ -92,8 +91,6 @@
 		FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMonetaryTextField.m; sourceTree = "<group>"; };
 		FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberPadInputView.h; sourceTree = "<group>"; };
 		FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
-		FBC7EB38164A0F72009E12DE /* DBPercentDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPercentDecimalTextField.h; sourceTree = "<group>"; };
-		FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPercentDecimalTextField.m; sourceTree = "<group>"; };
 		FBC7EB3A164A0F72009E12DE /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
 		FBC7EB3B164A0F72009E12DE /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
 		FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+DBKit.h"; sourceTree = "<group>"; };
@@ -277,8 +274,6 @@
 				FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */,
 				FBC7EB7D164A2CF0009E12DE /* DBNumberSwipeControl.h */,
 				FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */,
-				FBC7EB38164A0F72009E12DE /* DBPercentDecimalTextField.h */,
-				FBC7EB39164A0F72009E12DE /* DBPercentDecimalTextField.m */,
 				FBC7EB3A164A0F72009E12DE /* DBTextField.h */,
 				FBC7EB3B164A0F72009E12DE /* DBTextField.m */,
 				FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */,
@@ -449,7 +444,6 @@
 				FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */,
 				FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */,
 				FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */,
-				FBC7EB5B164A0F72009E12DE /* DBPercentDecimalTextField.m in Sources */,
 				FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */,
 				FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */,
 				FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */,

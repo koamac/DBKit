@@ -12,7 +12,6 @@
 //Views
 #import "DBTextField.h"
 #import "DBNumberPadInputView.h"
-#import "DBNumberSwipeControl.h"
 #import "DBDecimalTextField.h"
-#import "DBPercentDecimalTextField.h"
 #import "DBMonetaryTextField.h"
+#import "DBNumberSwipeControl.h"
