@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBB9412C16EBE38800E92E1D /* UIViewController+KeyboardHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB9412B16EBE38800E92E1D /* UIViewController+KeyboardHandling.m */; };
+		FBB9412F16EBE47000E92E1D /* DBKeyboardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB9412E16EBE47000E92E1D /* DBKeyboardInfo.m */; };
 		FBC7EAE5164A0B94009E12DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE4164A0B94009E12DE /* UIKit.framework */; };
 		FBC7EAE7164A0B94009E12DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE6164A0B94009E12DE /* Foundation.framework */; };
 		FBC7EAE9164A0B94009E12DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7EAE8164A0B94009E12DE /* CoreGraphics.framework */; };
@@ -52,6 +54,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBB9412A16EBE38800E92E1D /* UIViewController+KeyboardHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardHandling.h"; sourceTree = "<group>"; };
+		FBB9412B16EBE38800E92E1D /* UIViewController+KeyboardHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardHandling.m"; sourceTree = "<group>"; };
+		FBB9412D16EBE47000E92E1D /* DBKeyboardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBKeyboardInfo.h; sourceTree = "<group>"; };
+		FBB9412E16EBE47000E92E1D /* DBKeyboardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBKeyboardInfo.m; sourceTree = "<group>"; };
 		FBC7EAE0164A0B94009E12DE /* DBKitSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBKitSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC7EAE4164A0B94009E12DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBC7EAE6164A0B94009E12DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -284,6 +290,10 @@
 				FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */,
 				FBC7EB48164A0F72009E12DE /* UIView+DBKit.h */,
 				FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */,
+				FBB9412A16EBE38800E92E1D /* UIViewController+KeyboardHandling.h */,
+				FBB9412B16EBE38800E92E1D /* UIViewController+KeyboardHandling.m */,
+				FBB9412D16EBE47000E92E1D /* DBKeyboardInfo.h */,
+				FBB9412E16EBE47000E92E1D /* DBKeyboardInfo.m */,
 			);
 			path = DBKit;
 			sourceTree = "<group>";
@@ -445,6 +455,8 @@
 				FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */,
 				FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */,
 				FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */,
+				FBB9412C16EBE38800E92E1D /* UIViewController+KeyboardHandling.m in Sources */,
+				FBB9412F16EBE47000E92E1D /* DBKeyboardInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
