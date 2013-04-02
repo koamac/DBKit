@@ -30,6 +30,7 @@
 
 @interface DBCoreData : NSObject
 + (void)standUp; //Prepare the core data stack
++ (void)standUpTestingStack;
 + (void)tearDown;
 
 + (NSManagedObjectContext *)masterContext;

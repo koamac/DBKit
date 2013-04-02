@@ -44,6 +44,13 @@ static NSManagedObjectModel *_managedObjectModel;
     [self mainContext];
 }
 
++ (void)standUpTestingStack {
+    _persistentStoreCoordinator = [self testngPersistentStoreCoordinator];
+    _masterContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+    [_masterContext setPersistentStoreCoordinator:_persistentStoreCoordinator];
+    _mainContext = _masterContext;
+}
+
 + (void)tearDown {
     _mainContext = nil;
     _masterContext = nil;
@@ -129,6 +136,23 @@ static NSManagedObjectModel *_managedObjectModel;
     }
     
     return _persistentStoreCoordinator;
+}
+
++ (NSPersistentStoreCoordinator *)testngPersistentStoreCoordinator {
+    NSPersistentStoreCoordinator *psc = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    NSError *error = nil;
+    if (![psc addPersistentStoreWithType:NSInMemoryStoreType configuration:nil URL:nil options:nil error:&error]) {
+        NSDictionary *userInfo = @{ NSUnderlyingErrorKey : error };
+        NSException *exception = nil;
+        NSString *reason = @"Could not create in memory persistent store.";
+        exception = [NSException exceptionWithName:NSInternalInconsistencyException
+                                            reason:reason
+                                          userInfo:userInfo];
+        
+        @throw exception;
+    }
+    
+    return psc;
 }
 
 #pragma mark - Model and Path Info
