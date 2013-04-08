@@ -63,14 +63,14 @@
         
         if ([self respondsToSelector:@selector(currentFirstResponder)]) {
             firstResponder = [self currentFirstResponder];
-            CGRect firstResponderFrame = [firstResponder convertRect:firstResponder.bounds toView:scrollView];
+            CGRect firstResponderFrame = [firstResponder convertRect:firstResponder.bounds toView:self.view];
             CGFloat firstResponderMaxY = CGRectGetMaxY(firstResponderFrame);
             
             CGFloat viewPadding = 10.0f;
             
             if ((firstResponderMaxY + viewPadding) > keyboardInfo.endFrame.origin.y) {
                 shouldScroll = YES;
-                CGFloat distanceToScroll = (firstResponderMaxY + viewPadding) - keyboardInfo.endFrame.origin.y;
+                CGFloat distanceToScroll = floorf((firstResponderMaxY + viewPadding) - keyboardInfo.endFrame.origin.y);
                 contentOffset.y += distanceToScroll;
             }
         }
