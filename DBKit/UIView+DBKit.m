@@ -34,7 +34,7 @@
 }
 
 + (id)viewFromNibInBundle:(NSBundle *)bundle {
-    UINib *nib = [UINib nibWithNibName:[self _nibName] bundle:bundle];
+    UINib *nib = [self viewNibInBundle:bundle];
     NSArray *nibArray = [nib instantiateWithOwner:nil options:nil];
     
     NSAssert2(([nibArray count] > 0) && [[nibArray objectAtIndex:0] isKindOfClass:[self class]],
@@ -50,6 +50,14 @@
     }
     
     return view;
+}
+
++ (UINib *)viewNib {
+    return [self viewNibInBundle:nil];
+}
+
++ (UINib *)viewNibInBundle:(NSBundle *)bundle {
+    return [UINib nibWithNibName:[self _nibName] bundle:bundle];
 }
 
 + (NSString *)_nibName {

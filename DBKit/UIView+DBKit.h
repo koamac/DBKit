@@ -28,6 +28,8 @@
 @interface UIView (DBKit)
 + (id)viewFromNib;
 + (id)viewFromNibInBundle:(NSBundle *)bundle;
++ (UINib *)viewNib;
++ (UINib *)viewNibInBundle:(NSBundle *)bundle;
 
 - (void)setAnchorPointWithoutMovingView:(CGPoint)anchorPoint;
 @end
