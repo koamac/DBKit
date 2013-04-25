@@ -40,4 +40,5 @@ static inline BOOL IsEmpty(id thing) {
 #endif
 
 //This macro throws an exception for an unimplemented abstract method
-#define THROW_ABSTRACT_METHOD_EXCEPTION() @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:@"Failed to override %s", __PRETTY_FUNCTION__] userInfo:nil]
+//#define THROW_ABSTRACT_METHOD_EXCEPTION() NSAssert(NO, @"Failed to override %s", __PRETTY_FUNCTION__)
+#define THROW_ABSTRACT_METHOD_EXCEPTION() @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:@"%@ Failed to override %s", NSStringFromClass([self class]), __PRETTY_FUNCTION__] userInfo:nil]
