@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DBKit"
-  spec.version      = "0.4.1"
+  spec.version      = "0.4.2"
   spec.summary      = "A collection of code I use across all of my apps."
   spec.homepage     = "https://github.com/DavidBarry/DBKit"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
