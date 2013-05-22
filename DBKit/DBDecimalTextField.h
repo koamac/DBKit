@@ -30,7 +30,7 @@
 
 @interface DBDecimalTextField : DBTextField
 @property (nonatomic, readonly) DBNumberPadInputView *numberPad;
-@property (nonatomic) NSDecimalNumber *decimalValue;
+@property (nonatomic, weak) NSDecimalNumber *decimalValue;
 @property (nonatomic, strong) NSNumberFormatter *decimalFormatter;
 
 //This value will be used when no other value has been set. The default for this is zero
