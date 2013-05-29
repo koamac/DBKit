@@ -26,7 +26,7 @@
 #import "DBKeyboardInfo.h"
 
 @interface DBKeyboardInfo ()
-@property (assign, nonatomic) UIViewAnimationCurve animationCurve;
+@property (assign, nonatomic) UIViewAnimationOptions animationCurve;
 @property (assign, nonatomic) CGFloat animationDuration;
 
 @property (assign, nonatomic) CGSize size;
@@ -42,7 +42,7 @@
 + (DBKeyboardInfo *)keyboardInfoWithNotificationDictionary:(NSDictionary *)dictionary forViewController:(UIViewController *)viewController {
     DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo new];
     
-    keyboardInfo.animationCurve = [dictionary[UIKeyboardAnimationCurveUserInfoKey] intValue];
+    keyboardInfo.animationCurve = [self animationOptionsForAnimationCurve:[dictionary[UIKeyboardAnimationCurveUserInfoKey] intValue]];
     keyboardInfo.animationDuration = [dictionary[UIKeyboardAnimationDurationUserInfoKey] floatValue];
     
     keyboardInfo.rawBeginningFrame = [dictionary[UIKeyboardFrameBeginUserInfoKey] CGRectValue];
@@ -55,6 +55,21 @@
     keyboardInfo.size = keyboardInfo.beginningFrame.size;
     
     return keyboardInfo;
+}
+
++ (UIViewAnimationOptions)animationOptionsForAnimationCurve:(UIViewAnimationCurve)animationCurve {
+    switch (animationCurve) {
+        case UIViewAnimationCurveEaseInOut:
+            return UIViewAnimationOptionCurveEaseInOut;
+        case UIViewAnimationCurveEaseIn:
+            return UIViewAnimationOptionCurveEaseIn;
+        case UIViewAnimationCurveEaseOut:
+            return UIViewAnimationOptionCurveEaseOut;
+        case UIViewAnimationCurveLinear:
+            return UIViewAnimationOptionCurveLinear;
+    }
+    
+    return 0;
 }
 
 - (NSString *)description {

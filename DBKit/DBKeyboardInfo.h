@@ -26,7 +26,7 @@
 #import <Foundation/Foundation.h>
 
 @interface DBKeyboardInfo : NSObject
-@property (readonly, nonatomic) UIViewAnimationCurve animationCurve;
+@property (readonly, nonatomic) UIViewAnimationOptions animationCurve;
 @property (readonly, nonatomic) CGFloat animationDuration;
 
 //These properties have all been converted to the receiving view controller's view

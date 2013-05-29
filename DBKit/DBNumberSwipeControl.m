@@ -264,7 +264,7 @@ typedef enum {
     UIView *oldValueView = self.currentValueView;
     self.currentValueView = [self valueViewForNumber:self.value];
     
-    UIViewAnimationCurve animationCurve;
+    UIViewAnimationOptions animationCurve;
     void (^animationBlock)(void) = nil;
     
     if (direction == DBSwipeAnimationDirectionFade) {
@@ -273,7 +273,7 @@ typedef enum {
             self.currentValueView.alpha = 1.0;
             oldValueView.alpha = 0.0;
         };
-        animationCurve = UIViewAnimationCurveLinear;
+        animationCurve = UIViewAnimationOptionCurveLinear;
         
     } else if (direction == DBSwipeAnimationDirectionDown) {
         self.currentValueView.center = topCenterPoint;
@@ -281,7 +281,7 @@ typedef enum {
             self.currentValueView.center = self.valueViewCenter;
             oldValueView.center = bottomCenterPoint;
         };
-        animationCurve = UIViewAnimationCurveEaseOut;
+        animationCurve = UIViewAnimationOptionCurveEaseOut;
         
     } else if (direction == DBSwipeAnimationDirectionUp) {
         self.currentValueView.center = bottomCenterPoint;
@@ -289,7 +289,7 @@ typedef enum {
             self.currentValueView.center = self.valueViewCenter;
             oldValueView.center = topCenterPoint;
         };
-        animationCurve = UIViewAnimationCurveEaseOut;
+        animationCurve = UIViewAnimationOptionCurveEaseOut;
         
     }
     
@@ -324,10 +324,10 @@ typedef enum {
     }
     
     CGPoint midPoint = [self midPointBetweenPoint:self.currentValueView.center andPoint:endPoint];
-    [UIView animateWithDuration:0.15 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.15 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.currentValueView.center = midPoint;
     } completion:^(BOOL finished) {
-        [UIView animateWithDuration:0.15 delay:0 options:UIViewAnimationCurveEaseInOut animations:^{
+        [UIView animateWithDuration:0.15 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
             self.currentValueView.center = self.valueViewCenter;
         } completion:NULL];
     }];
