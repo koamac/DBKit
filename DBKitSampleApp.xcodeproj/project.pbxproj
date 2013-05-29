@@ -52,6 +52,7 @@
 		FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */; };
 		FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */; };
 		FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */; };
+		FBFD22461756B85B001B76A3 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FBFD22451756B85B001B76A3 /* Default.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		FBC7EB80164A3AEE009E12DE /* DBNumberSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberSwipeViewController.h; sourceTree = "<group>"; };
 		FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberSwipeViewController.m; sourceTree = "<group>"; };
 		FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberSwipeViewController.xib; sourceTree = "<group>"; };
+		FBFD22451756B85B001B76A3 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		FBC7EB10164A0D8E009E12DE /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FBFD22451756B85B001B76A3 /* Default.xcconfig */,
 				FBC7EB15164A0E2E009E12DE /* DBKitSampleApp-Prefix.pch */,
 				FBC7EB16164A0E2E009E12DE /* main.m */,
 			);
@@ -425,6 +428,7 @@
 				FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */,
 				FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */,
 				FBB9413416EC1D7900E92E1D /* TextInputViewController.xib in Resources */,
+				FBFD22461756B85B001B76A3 /* Default.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +473,7 @@
 /* Begin XCBuildConfiguration section */
 		FBC7EB01164A0B94009E12DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFD22451756B85B001B76A3 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -508,6 +513,7 @@
 		};
 		FBC7EB02164A0B94009E12DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFD22451756B85B001B76A3 /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
