@@ -50,12 +50,13 @@
 
     if ([self respondsToSelector:@selector(scrollViewToAutomaticallyAdjust)]) {
         UIScrollView *scrollView = [self scrollViewToAutomaticallyAdjust];
+        CGFloat keyboardOverlapInScrollView = MAX(CGRectGetMaxY(scrollView.frame) - keyboardInfo.endFrame.origin.y, 0.0f);
         
         UIEdgeInsets contentInset = scrollView.contentInset;
-        contentInset.bottom += keyboardInfo.size.height;
+        contentInset.bottom += keyboardOverlapInScrollView;
         
         UIEdgeInsets scrollIndicatorInset = scrollView.scrollIndicatorInsets;
-        scrollIndicatorInset.bottom += keyboardInfo.size.height;
+        scrollIndicatorInset.bottom += keyboardOverlapInScrollView;
 
         UIView *firstResponder = nil;
         CGPoint contentOffset = scrollView.contentOffset;
@@ -99,12 +100,13 @@
     
     if ([self respondsToSelector:@selector(scrollViewToAutomaticallyAdjust)]) {
         UIScrollView *scrollView = [self scrollViewToAutomaticallyAdjust];
+        CGFloat keyboardOverlapInScrollView = MAX(CGRectGetMaxY(scrollView.frame) - keyboardInfo.beginningFrame.origin.y, 0.0f);
         
         UIEdgeInsets contentInset = scrollView.contentInset;
-        contentInset.bottom -= keyboardInfo.size.height;
+        contentInset.bottom -= keyboardOverlapInScrollView;
         
         UIEdgeInsets scrollIndicatorInset = scrollView.scrollIndicatorInsets;
-        scrollIndicatorInset.bottom -= keyboardInfo.size.height;
+        scrollIndicatorInset.bottom -= keyboardOverlapInScrollView;
         
         [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationCurve animations:^{
             scrollView.contentInset = contentInset;
