@@ -24,35 +24,19 @@
 		FBC7EB55164A0F72009E12DE /* DBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB29164A0F72009E12DE /* DBCoreData.m */; };
 		FBC7EB56164A0F72009E12DE /* DBFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB2B164A0F72009E12DE /* DBFetchedTableViewController.m */; };
 		FBC7EB57164A0F72009E12DE /* DBManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB2D164A0F72009E12DE /* DBManagedObject.m */; };
-		FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */; };
-		FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */; };
-		FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */; };
 		FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3B164A0F72009E12DE /* DBTextField.m */; };
-		FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */; };
 		FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */; };
 		FBC7EB5F164A0F72009E12DE /* NSTimer+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB41164A0F72009E12DE /* NSTimer+DBKit.m */; };
 		FBC7EB60164A0F72009E12DE /* NSURL+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB43164A0F72009E12DE /* NSURL+DBKit.m */; };
 		FBC7EB61164A0F72009E12DE /* UIFont+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB45164A0F72009E12DE /* UIFont+DBKit.m */; };
 		FBC7EB62164A0F72009E12DE /* UITableView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */; };
 		FBC7EB63164A0F72009E12DE /* UIView+DBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */; };
-		FBC7EB64164A0F72009E12DE /* backspaceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4C164A0F72009E12DE /* backspaceButton.png */; };
-		FBC7EB65164A0F72009E12DE /* backspaceButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */; };
-		FBC7EB66164A0F72009E12DE /* backspaceButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */; };
-		FBC7EB67164A0F72009E12DE /* backspaceButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */; };
-		FBC7EB68164A0F72009E12DE /* DBNumberPadInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */; };
-		FBC7EB69164A0F72009E12DE /* numberPadBackdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */; };
-		FBC7EB6A164A0F72009E12DE /* numberPadBackdrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */; };
-		FBC7EB6B164A0F72009E12DE /* plainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB53164A0F72009E12DE /* plainButton.png */; };
-		FBC7EB6C164A0F72009E12DE /* plainButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB54164A0F72009E12DE /* plainButton@2x.png */; };
 		FBC7EB71164A14BE009E12DE /* Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB70164A14BE009E12DE /* Timestamp.m */; };
 		FBC7EB74164A1541009E12DE /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB73164A1541009E12DE /* RootTableViewController.m */; };
 		FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */; };
-		FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */; };
-		FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */; };
 		FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */; };
 		FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */; };
 		FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */; };
-		FBFD22461756B85B001B76A3 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FBFD22451756B85B001B76A3 /* Default.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,18 +68,10 @@
 		FBC7EB2C164A0F72009E12DE /* DBManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManagedObject.h; sourceTree = "<group>"; };
 		FBC7EB2D164A0F72009E12DE /* DBManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManagedObject.m; sourceTree = "<group>"; };
 		FBC7EB2F164A0F72009E12DE /* DBCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCategories.h; sourceTree = "<group>"; };
-		FBC7EB30164A0F72009E12DE /* DBDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDecimalTextField.h; sourceTree = "<group>"; };
-		FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDecimalTextField.m; sourceTree = "<group>"; };
 		FBC7EB32164A0F72009E12DE /* DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBKit.h; sourceTree = "<group>"; };
 		FBC7EB33164A0F72009E12DE /* DBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMacros.h; sourceTree = "<group>"; };
-		FBC7EB34164A0F72009E12DE /* DBMonetaryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMonetaryTextField.h; sourceTree = "<group>"; };
-		FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMonetaryTextField.m; sourceTree = "<group>"; };
-		FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberPadInputView.h; sourceTree = "<group>"; };
-		FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberPadInputView.m; sourceTree = "<group>"; };
 		FBC7EB3A164A0F72009E12DE /* DBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTextField.h; sourceTree = "<group>"; };
 		FBC7EB3B164A0F72009E12DE /* DBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTextField.m; sourceTree = "<group>"; };
-		FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+DBKit.h"; sourceTree = "<group>"; };
-		FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+DBKit.m"; sourceTree = "<group>"; };
 		FBC7EB3E164A0F72009E12DE /* NSString+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DBKit.h"; sourceTree = "<group>"; };
 		FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBKit.m"; sourceTree = "<group>"; };
 		FBC7EB40164A0F72009E12DE /* NSTimer+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DBKit.h"; sourceTree = "<group>"; };
@@ -108,24 +84,12 @@
 		FBC7EB47164A0F72009E12DE /* UITableView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DBKit.m"; sourceTree = "<group>"; };
 		FBC7EB48164A0F72009E12DE /* UIView+DBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DBKit.h"; sourceTree = "<group>"; };
 		FBC7EB49164A0F72009E12DE /* UIView+DBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DBKit.m"; sourceTree = "<group>"; };
-		FBC7EB4C164A0F72009E12DE /* backspaceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButton.png; sourceTree = "<group>"; };
-		FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButton@2x.png"; sourceTree = "<group>"; };
-		FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspaceButtonSelected.png; sourceTree = "<group>"; };
-		FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspaceButtonSelected@2x.png"; sourceTree = "<group>"; };
-		FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBNumberPadInputView.xib; sourceTree = "<group>"; };
-		FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberPadBackdrop.png; sourceTree = "<group>"; };
-		FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numberPadBackdrop@2x.png"; sourceTree = "<group>"; };
-		FBC7EB53164A0F72009E12DE /* plainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plainButton.png; sourceTree = "<group>"; };
-		FBC7EB54164A0F72009E12DE /* plainButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plainButton@2x.png"; sourceTree = "<group>"; };
 		FBC7EB6F164A14BE009E12DE /* Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.h; sourceTree = "<group>"; };
 		FBC7EB70164A14BE009E12DE /* Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.m; sourceTree = "<group>"; };
 		FBC7EB72164A1541009E12DE /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
 		FBC7EB73164A1541009E12DE /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		FBC7EB75164A1E3B009E12DE /* TimestampListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimestampListViewController.h; sourceTree = "<group>"; };
 		FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimestampListViewController.m; sourceTree = "<group>"; };
-		FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericInputViewController.h; sourceTree = "<group>"; };
-		FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericInputViewController.m; sourceTree = "<group>"; };
-		FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericInputViewController.xib; sourceTree = "<group>"; };
 		FBC7EB7D164A2CF0009E12DE /* DBNumberSwipeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberSwipeControl.h; sourceTree = "<group>"; };
 		FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNumberSwipeControl.m; sourceTree = "<group>"; };
 		FBC7EB80164A3AEE009E12DE /* DBNumberSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNumberSwipeViewController.h; sourceTree = "<group>"; };
@@ -246,7 +210,6 @@
 				FBD9C69316CE0F850003AA2B /* DBKitShared */,
 				FBC7EB27164A0F72009E12DE /* DBCoreData */,
 				FBC7EB2E164A0F72009E12DE /* DBKit */,
-				FBC7EB4A164A0F72009E12DE /* DBKitResources */,
 			);
 			name = DBKit;
 			sourceTree = "<group>";
@@ -268,19 +231,11 @@
 			isa = PBXGroup;
 			children = (
 				FBC7EB2F164A0F72009E12DE /* DBCategories.h */,
-				FBC7EB30164A0F72009E12DE /* DBDecimalTextField.h */,
-				FBC7EB31164A0F72009E12DE /* DBDecimalTextField.m */,
 				FBC7EB32164A0F72009E12DE /* DBKit.h */,
-				FBC7EB34164A0F72009E12DE /* DBMonetaryTextField.h */,
-				FBC7EB35164A0F72009E12DE /* DBMonetaryTextField.m */,
-				FBC7EB36164A0F72009E12DE /* DBNumberPadInputView.h */,
-				FBC7EB37164A0F72009E12DE /* DBNumberPadInputView.m */,
 				FBC7EB7D164A2CF0009E12DE /* DBNumberSwipeControl.h */,
 				FBC7EB7E164A2CF0009E12DE /* DBNumberSwipeControl.m */,
 				FBC7EB3A164A0F72009E12DE /* DBTextField.h */,
 				FBC7EB3B164A0F72009E12DE /* DBTextField.m */,
-				FBC7EB3C164A0F72009E12DE /* NSNumberFormatter+DBKit.h */,
-				FBC7EB3D164A0F72009E12DE /* NSNumberFormatter+DBKit.m */,
 				FBC7EB3E164A0F72009E12DE /* NSString+DBKit.h */,
 				FBC7EB3F164A0F72009E12DE /* NSString+DBKit.m */,
 				FBC7EB40164A0F72009E12DE /* NSTimer+DBKit.h */,
@@ -301,30 +256,6 @@
 			path = DBKit;
 			sourceTree = "<group>";
 		};
-		FBC7EB4A164A0F72009E12DE /* DBKitResources */ = {
-			isa = PBXGroup;
-			children = (
-				FBC7EB4B164A0F72009E12DE /* NumPad */,
-			);
-			path = DBKitResources;
-			sourceTree = "<group>";
-		};
-		FBC7EB4B164A0F72009E12DE /* NumPad */ = {
-			isa = PBXGroup;
-			children = (
-				FBC7EB4C164A0F72009E12DE /* backspaceButton.png */,
-				FBC7EB4D164A0F72009E12DE /* backspaceButton@2x.png */,
-				FBC7EB4E164A0F72009E12DE /* backspaceButtonSelected.png */,
-				FBC7EB4F164A0F72009E12DE /* backspaceButtonSelected@2x.png */,
-				FBC7EB50164A0F72009E12DE /* DBNumberPadInputView.xib */,
-				FBC7EB51164A0F72009E12DE /* numberPadBackdrop.png */,
-				FBC7EB52164A0F72009E12DE /* numberPadBackdrop@2x.png */,
-				FBC7EB53164A0F72009E12DE /* plainButton.png */,
-				FBC7EB54164A0F72009E12DE /* plainButton@2x.png */,
-			);
-			path = NumPad;
-			sourceTree = "<group>";
-		};
 		FBC7EB6D164A13F1009E12DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,9 +272,6 @@
 				FBC7EB73164A1541009E12DE /* RootTableViewController.m */,
 				FBC7EB75164A1E3B009E12DE /* TimestampListViewController.h */,
 				FBC7EB76164A1E3B009E12DE /* TimestampListViewController.m */,
-				FBC7EB78164A24EB009E12DE /* NumericInputViewController.h */,
-				FBC7EB79164A24EB009E12DE /* NumericInputViewController.m */,
-				FBC7EB7A164A24EB009E12DE /* NumericInputViewController.xib */,
 				FBC7EB80164A3AEE009E12DE /* DBNumberSwipeViewController.h */,
 				FBC7EB81164A3AEE009E12DE /* DBNumberSwipeViewController.m */,
 				FBC7EB82164A3AEE009E12DE /* DBNumberSwipeViewController.xib */,
@@ -388,7 +316,7 @@
 		FBC7EAD7164A0B94009E12DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "David Barry";
 			};
 			buildConfigurationList = FBC7EADA164A0B94009E12DE /* Build configuration list for PBXProject "DBKitSampleApp" */;
@@ -416,19 +344,8 @@
 				FBC7EB23164A0E43009E12DE /* Default-568h@2x.png in Resources */,
 				FBC7EB24164A0E43009E12DE /* Default.png in Resources */,
 				FBC7EB25164A0E43009E12DE /* Default@2x.png in Resources */,
-				FBC7EB64164A0F72009E12DE /* backspaceButton.png in Resources */,
-				FBC7EB65164A0F72009E12DE /* backspaceButton@2x.png in Resources */,
-				FBC7EB66164A0F72009E12DE /* backspaceButtonSelected.png in Resources */,
-				FBC7EB67164A0F72009E12DE /* backspaceButtonSelected@2x.png in Resources */,
-				FBC7EB68164A0F72009E12DE /* DBNumberPadInputView.xib in Resources */,
-				FBC7EB69164A0F72009E12DE /* numberPadBackdrop.png in Resources */,
-				FBC7EB6A164A0F72009E12DE /* numberPadBackdrop@2x.png in Resources */,
-				FBC7EB6B164A0F72009E12DE /* plainButton.png in Resources */,
-				FBC7EB6C164A0F72009E12DE /* plainButton@2x.png in Resources */,
-				FBC7EB7C164A24EB009E12DE /* NumericInputViewController.xib in Resources */,
 				FBC7EB84164A3AEE009E12DE /* DBNumberSwipeViewController.xib in Resources */,
 				FBB9413416EC1D7900E92E1D /* TextInputViewController.xib in Resources */,
-				FBFD22461756B85B001B76A3 /* Default.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,11 +362,7 @@
 				FBC7EB55164A0F72009E12DE /* DBCoreData.m in Sources */,
 				FBC7EB56164A0F72009E12DE /* DBFetchedTableViewController.m in Sources */,
 				FBC7EB57164A0F72009E12DE /* DBManagedObject.m in Sources */,
-				FBC7EB58164A0F72009E12DE /* DBDecimalTextField.m in Sources */,
-				FBC7EB59164A0F72009E12DE /* DBMonetaryTextField.m in Sources */,
-				FBC7EB5A164A0F72009E12DE /* DBNumberPadInputView.m in Sources */,
 				FBC7EB5C164A0F72009E12DE /* DBTextField.m in Sources */,
-				FBC7EB5D164A0F72009E12DE /* NSNumberFormatter+DBKit.m in Sources */,
 				FBC7EB5E164A0F72009E12DE /* NSString+DBKit.m in Sources */,
 				FBC7EB5F164A0F72009E12DE /* NSTimer+DBKit.m in Sources */,
 				FBC7EB60164A0F72009E12DE /* NSURL+DBKit.m in Sources */,
@@ -459,7 +372,6 @@
 				FBC7EB71164A14BE009E12DE /* Timestamp.m in Sources */,
 				FBC7EB74164A1541009E12DE /* RootTableViewController.m in Sources */,
 				FBC7EB77164A1E3B009E12DE /* TimestampListViewController.m in Sources */,
-				FBC7EB7B164A24EB009E12DE /* NumericInputViewController.m in Sources */,
 				FBC7EB7F164A2CF0009E12DE /* DBNumberSwipeControl.m in Sources */,
 				FBC7EB83164A3AEE009E12DE /* DBNumberSwipeViewController.m in Sources */,
 				FBB9412C16EBE38800E92E1D /* UIViewController+KeyboardHandling.m in Sources */,
@@ -504,7 +416,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -537,7 +449,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;

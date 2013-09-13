@@ -8,13 +8,11 @@
 
 #import "RootTableViewController.h"
 #import "TimestampListViewController.h"
-#import "NumericInputViewController.h"
 #import "DBNumberSwipeViewController.h"
 #import "TextInputViewController.h"
 typedef enum {
     RootItemDBCoreData = 0,
     RootItemDBNumberSwipeControl,
-    RootItemNumericInput,
     RootItemKeyboardHandling,
     RootNumberOfItems
 } RootItems;
@@ -53,9 +51,6 @@ static NSString * const kCellIdentifier = @"Cell";
         case RootItemDBNumberSwipeControl:
             title = @"DBNumberSwipeControl";
             break;
-        case RootItemNumericInput:
-            title = @"Numeric Input";
-            break;
         case RootItemKeyboardHandling:
             title = @"Keyboard Handling";
             break;
@@ -74,9 +69,6 @@ static NSString * const kCellIdentifier = @"Cell";
             break;
         case RootItemDBNumberSwipeControl:
             viewController = [DBNumberSwipeViewController new];
-            break;
-        case RootItemNumericInput:
-            viewController = [NumericInputViewController new];
             break;
         case RootItemKeyboardHandling:
             viewController = [TextInputViewController new];
