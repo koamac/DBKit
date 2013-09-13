@@ -26,7 +26,8 @@
 #import "DBKeyboardInfo.h"
 
 @interface DBKeyboardInfo ()
-@property (assign, nonatomic) UIViewAnimationOptions animationCurve;
+@property (assign, nonatomic) UIViewAnimationOptions animationOptions;
+@property (assign, nonatomic) UIViewAnimationCurve animationCurve;
 @property (assign, nonatomic) CGFloat animationDuration;
 
 @property (assign, nonatomic) CGSize size;
@@ -41,8 +42,8 @@
 @implementation DBKeyboardInfo
 + (DBKeyboardInfo *)keyboardInfoWithNotificationDictionary:(NSDictionary *)dictionary forViewController:(UIViewController *)viewController {
     DBKeyboardInfo *keyboardInfo = [DBKeyboardInfo new];
-    
-    keyboardInfo.animationCurve = [self animationOptionsForAnimationCurve:[dictionary[UIKeyboardAnimationCurveUserInfoKey] intValue]];
+    keyboardInfo.animationCurve = [dictionary[UIKeyboardAnimationCurveUserInfoKey] integerValue];
+    keyboardInfo.animationOptions = [self animationOptionsForAnimationCurve:keyboardInfo.animationCurve];
     keyboardInfo.animationDuration = [dictionary[UIKeyboardAnimationDurationUserInfoKey] floatValue];
     
     keyboardInfo.rawBeginningFrame = [dictionary[UIKeyboardFrameBeginUserInfoKey] CGRectValue];
@@ -58,22 +59,12 @@
 }
 
 + (UIViewAnimationOptions)animationOptionsForAnimationCurve:(UIViewAnimationCurve)animationCurve {
-    switch (animationCurve) {
-        case UIViewAnimationCurveEaseInOut:
-            return UIViewAnimationOptionCurveEaseInOut;
-        case UIViewAnimationCurveEaseIn:
-            return UIViewAnimationOptionCurveEaseIn;
-        case UIViewAnimationCurveEaseOut:
-            return UIViewAnimationOptionCurveEaseOut;
-        case UIViewAnimationCurveLinear:
-            return UIViewAnimationOptionCurveLinear;
-    }
-    
-    return 0;
+    //bitshift left by 16 to turn this into a UIViewAnimationOptions value, Thanks Andy Matushack
+    return animationCurve << 16;
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Animatione Curve: %d\nDuration: %f\n\nSize: %@\nBeginning Frame: %@\nEnd Frame: %@\n\nRaw Size: %@\nRaw Beginning Frame: %@,\nRaw End Frame: %@",
+    return [NSString stringWithFormat:@"Animation Curve: %zd\nDuration: %f\n\nSize: %@\nBeginning Frame: %@\nEnd Frame: %@\n\nRaw Size: %@\nRaw Beginning Frame: %@,\nRaw End Frame: %@",
             self.animationCurve,
             self.animationDuration,
             NSStringFromCGSize(self.size),

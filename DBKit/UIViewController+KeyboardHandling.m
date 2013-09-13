@@ -76,7 +76,7 @@
             }
         }
         
-        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationCurve animations:^{
+        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationOptions animations:^{
             scrollView.contentInset = contentInset;
             scrollView.scrollIndicatorInsets = scrollIndicatorInset;
             if (shouldScroll) scrollView.contentOffset = contentOffset;
@@ -108,7 +108,7 @@
         UIEdgeInsets scrollIndicatorInset = scrollView.scrollIndicatorInsets;
         scrollIndicatorInset.bottom -= keyboardOverlapInScrollView;
         
-        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationCurve animations:^{
+        [UIView animateWithDuration:keyboardInfo.animationDuration delay:0.0f options:keyboardInfo.animationOptions animations:^{
             scrollView.contentInset = contentInset;
             scrollView.scrollIndicatorInsets = scrollIndicatorInset;
         } completion:nil];

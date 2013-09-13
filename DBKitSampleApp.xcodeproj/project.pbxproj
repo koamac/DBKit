@@ -463,6 +463,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBKitSampleApp/Other Sources/DBKitSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DBKitSampleApp/Resources/DBKitSampleApp-Info.plist";
+				OTHER_LDFLAGS = "-Weverything";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +475,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBKitSampleApp/Other Sources/DBKitSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DBKitSampleApp/Resources/DBKitSampleApp-Info.plist";
+				OTHER_LDFLAGS = "-Weverything";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
