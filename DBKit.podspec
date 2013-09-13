@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DBKit"
-  spec.version      = "0.4.6"
+  spec.version      = "1.0"
   spec.summary      = "A collection of code I use across all of my apps."
   spec.homepage     = "https://github.com/DavidBarry/DBKit"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,7 +15,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'DBKit' do |db_kit|
     db_kit.source_files     = 'DBKit/*.{h,m}'
-    db_kit.resources        = 'DBKitResources/**/*.{png,xib}'
     db_kit.frameworks       = 'QuartzCore', 'CoreGraphics'
     db_kit.dependency         'DBKit/DBKitCore'
   end
